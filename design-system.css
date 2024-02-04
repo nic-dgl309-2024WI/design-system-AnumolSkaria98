@@ -5,7 +5,7 @@
   justify-content: space-between; /* Distribute items evenly */
 }
 .topnav__links {
-  display: flex; /* Use flexbox for inner links */
+  display: none; /* Use flexbox for inner links */
 }
 .topnav__link {
   color: var(--clr-primary);
@@ -48,4 +48,41 @@
 .hamburger {
   display: none; /* Hide by default */
   cursor: pointer;
+}
+
+
+/* Reference - ChatGPT */
+
+/* Media query for screens larger than 700px */
+@media screen and (min-width: 700px) {
+  .hamburger {
+    display: none; /* Hide hamburger icon on larger screens */
+  }
+
+  .topnav__links {
+    display: block; /* Show top nav links on larger screens */
+  }
+
+  .sidenav {
+    display: block; /* Show side navbar on larger screens */
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 48px;
+    left: 0;
+    background-color: var(--clr-light);
+    z-index: 1;
+  }
+
+  .sidenav__link {
+    display: block;
+  }
+  .sidenav__links{
+    display: none;
+  }
+
+  /* Adjustments for specific elements if needed */
+  .sidenav__content {
+    padding-top: 48px; /* Adjust as needed */
+  }
 }
