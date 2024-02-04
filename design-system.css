@@ -22,13 +22,7 @@
 
 /* Styles for side navigation bar */
 .sidenav {
-  height: 100%;
-  width: 250px;
-  position: fixed; /* Fix the position even if the user scrolls the page*/
-  z-index: 1; /* Stacking orger of the element relative to other elements*/
-  top: 48px;
-  left: 0;
-  background-color: var(--clr-light);
+  display: none; /* hide sidebar by default on small screen */
 }
 
 .sidenav p {
