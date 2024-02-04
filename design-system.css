@@ -49,3 +49,9 @@
 .sidenav__link:hover {
   color: var(--clr-secondary);
 }
+
+/* Styles for the hamburger icon */
+.hamburger {
+  display: none; /* Hide by default */
+  cursor: pointer;
+}
