@@ -4,4 +4,18 @@
   display: flex; /* Use flexbox */
   justify-content: space-between; /* Distribute items evenly */
 }
- 
+.topnav__links {
+  display: flex; /* Use flexbox for inner links */
+}
+.topnav__link {
+  color:var(--clr-white);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav__link:hover {
+  background-color:var(--clr-light);
+  color:var(--clr-primary);
+}
