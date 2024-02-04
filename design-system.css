@@ -1,0 +1,7 @@
+.topnav {
+  overflow: hidden;
+  background-color:var(--clr-primary);
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Distribute items evenly */
+}
+ 
