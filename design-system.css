@@ -30,3 +30,7 @@
   left: 0;
   background-color:var(--clr-primary);
 }
+
+.sidenav p {
+  color:var(--clr-secondary);
+}
