@@ -34,3 +34,7 @@
 .sidenav p {
   color:var(--clr-secondary);
 }
+
+.sidenav__list {
+  list-style-type: none; /* Remove default bullet points from the list */
+}
