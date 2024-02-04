@@ -40,6 +40,13 @@
   color: var(--clr-primary);
   display: block;
 }
+.sidenav__links{
+  text-decoration: none;
+  display: block;
+  color: var(--clr-primary);
+}
+
+
 .sidenav__link:hover {
   color: var(--clr-secondary);
 }
