@@ -1,6 +1,6 @@
 .topnav {
   overflow: hidden;
-  background-color:var(--clr-light);
+  background-color: var(--clr-light);
   display: flex; /* Use flexbox */
   justify-content: space-between; /* Distribute items evenly */
 }
@@ -8,7 +8,7 @@
   display: flex; /* Use flexbox for inner links */
 }
 .topnav__link {
-  color:var(--clr-primary);
+  color: var(--clr-primary);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -16,8 +16,8 @@
 }
 
 .topnav__link:hover {
-  background-color:var(--clr-white);
-  color:var(--clr-primary);
+  background-color: var(--clr-white);
+  color: var(--clr-primary);
 }
 
 /* Styles for side navigation bar */
@@ -28,15 +28,24 @@
   z-index: 1; /* Stacking orger of the element relative to other elements*/
   top: 48px;
   left: 0;
-  background-color:var(--clr-light);
+  background-color: var(--clr-light);
 }
 
 .sidenav p {
-  color:var(--clr-primary);
+  color: var(--clr-primary);
 }
 
 .sidenav__list {
   list-style-type: none; /* Remove default bullet points from the list */
 }
 
-
+.sidenav__link {
+  padding: 1px 8px 3px 22px;
+  text-decoration: none;
+  font-size: 15px;
+  color: var(--clr-primary);
+  display: block;
+}
+.sidenav__link:hover {
+  color: var(--clr-secondary);
+}
