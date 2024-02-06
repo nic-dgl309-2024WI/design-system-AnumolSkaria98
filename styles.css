@@ -6,9 +6,11 @@
     --clr-light:#d3d3d3;
     --clr-white:#ffffff;
     /* colours for the redesign site */
-    --clr-bg-primary:#FCFCFC;
-    --clr-text-primary:#000000;
-    --clr-accent-primary:#E31C4A;
+    --clr-bg-primary:#F0ECE2;
+    --Clr-bg-secondary:#ffffff;
+    --clr-text-primary:#333333;
+    --clr-text-secondary:#666666;
+    --clr-accent-primary:#009688;
 }
 
 /* Apply border box fix */
