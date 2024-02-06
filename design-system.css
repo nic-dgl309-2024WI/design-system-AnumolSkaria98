@@ -1,6 +1,6 @@
 .c-topnav {
   overflow: hidden;
-  background-color: var(--clr-light);
+  /* background-color: var(--clr-light); */
   display: flex; /* Use flexbox */
   justify-content: space-between; /* Distribute items evenly */
 }
@@ -24,7 +24,7 @@
 }
 
 .c-topnav__link:hover {
-  background-color: var(--clr-white);
+  background-color: var(--clr-secondary);
   color: var(--clr-primary);
 }
 
@@ -93,7 +93,7 @@
     position: fixed;
     top: 48px;
     left: 0;
-    background-color: var(--clr-light);
+    /* background-color: var(--clr-light); */
     z-index: 1;
   }
 
