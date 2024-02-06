@@ -1,18 +1,21 @@
-.topnav {
+.c-topnav {
   overflow: hidden;
   background-color: var(--clr-light);
   display: flex; /* Use flexbox */
   justify-content: space-between; /* Distribute items evenly */
 }
+
 /* .topnav .active{
   background-color: var(--clr-accent);
   height: auto;
   width: 250px;
 } */
-.topnav__links {
+
+.c-topnav__links {
   display: none; /* Use flexbox for inner links */
 }
-.topnav__link {
+
+.c-topnav__link {
   color: var(--clr-primary);
   text-align: center;
   padding: 14px 16px;
@@ -20,48 +23,50 @@
   font-size: 17px;
 }
 
-.topnav__link:hover {
+.c-topnav__link:hover {
   background-color: var(--clr-white);
   color: var(--clr-primary);
 }
 
 /* Styles for side navigation bar */
-.sidenav {
+.c-sidenav {
   display: none; /* hide sidebar by default on small screen */
 }
 
-.sidenav p {
+.c-sidenav p {
   color: var(--clr-primary);
 }
 
-.sidenav__list {
+.c-sidenav__list {
   list-style-type: none; /* Remove default bullet points from the list */
 }
 
-.sidenav__link {
+.c-sidenav__link {
   padding: 1px 8px 3px 22px;
   text-decoration: none;
   font-size: 15px;
   color: var(--clr-primary);
   display: block;
 }
-.sidenav__links {
+
+.c-sidenav__links {
   text-decoration: none;
   display: block;
   color: var(--clr-primary);
 }
 
-.sidenav__link:hover {
+.c-sidenav__link:hover {
   color: var(--clr-secondary);
 }
 
 /* Styles for the hamburger icon */
-.hamburger {
+.c-hamburger {
   display: block;
   cursor: pointer;
 }
+
 /* Styles for the cancel icon */
-.cancel {
+.c-cancel {
   display: block;
   cursor: pointer;
 }
@@ -70,15 +75,15 @@
 
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
-  .hamburger {
+  .c-hamburger {
     display: none; /* Hide hamburger icon on larger screens */
   }
 
-  .topnav__links {
+  .c-topnav__links {
     display: block; /* Show top nav links on larger screens */
   }
 
-  .sidenav {
+  .c-sidenav {
     display: block; /* Show side navbar on larger screens */
     height: 100%;
     width: 250px;
@@ -89,15 +94,15 @@
     z-index: 1;
   }
 
-  .sidenav__link {
+  .c-sidenav__link {
     display: block;
   }
-  .sidenav__links {
+  .c-sidenav__links {
     display: none;
   }
 
   /* Adjustments for specific elements if needed */
-  .sidenav__content {
+  .c-sidenav__content {
     padding-top: 48px; /* Adjust as needed */
   }
 }
