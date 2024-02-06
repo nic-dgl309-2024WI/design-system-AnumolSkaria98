@@ -4,6 +4,11 @@
   display: flex; /* Use flexbox */
   justify-content: space-between; /* Distribute items evenly */
 }
+/* .topnav .active{
+  background-color: var(--clr-accent);
+  height: auto;
+  width: 250px;
+} */
 .topnav__links {
   display: none; /* Use flexbox for inner links */
 }
@@ -40,12 +45,11 @@
   color: var(--clr-primary);
   display: block;
 }
-.sidenav__links{
+.sidenav__links {
   text-decoration: none;
   display: block;
   color: var(--clr-primary);
 }
-
 
 .sidenav__link:hover {
   color: var(--clr-secondary);
@@ -53,10 +57,14 @@
 
 /* Styles for the hamburger icon */
 .hamburger {
-  display: block; 
+  display: block;
   cursor: pointer;
 }
-
+/* Styles for the cancel icon */
+.cancel {
+  display: block;
+  cursor: pointer;
+}
 
 /* Reference - ChatGPT */
 
@@ -84,7 +92,7 @@
   .sidenav__link {
     display: block;
   }
-  .sidenav__links{
+  .sidenav__links {
     display: none;
   }
 
