@@ -78,6 +78,9 @@
   .c-hamburger {
     display: none; /* Hide hamburger icon on larger screens */
   }
+  .c-cancel{
+    display: none;
+  }
 
   .c-topnav__links {
     display: block; /* Show top nav links on larger screens */
