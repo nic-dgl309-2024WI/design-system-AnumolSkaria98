@@ -5,6 +5,10 @@
     --clr-accent:var(--clr-secondary);
     --clr-light:#d3d3d3;
     --clr-white:#ffffff;
+    /* colours for the redesign site */
+    --clr-bg-primary:#FCFCFC;
+    --clr-text-primary:#000000;
+    --clr-accent-primary:#E31C4A;
 }
 
 /* Apply border box fix */
@@ -19,3 +23,4 @@ body, h1, h2, h3, h4, h5, h6, p, figure, picture {
   ul, ol {
     padding: 0;
   } 
+
