@@ -77,6 +77,13 @@
   display: block;
   cursor: pointer;
 }
+/* Styles for colours.html */
+main {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-left: 150px;
+}
 
 
 /* Reference - ChatGPT */

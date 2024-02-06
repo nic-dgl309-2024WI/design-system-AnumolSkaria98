@@ -12,7 +12,6 @@
     --clr-text-secondary:#666666;
     --clr-accent-primary:#009688;
 }
-
 /* Apply border box fix */
 * {
     box-sizing: border-box;
