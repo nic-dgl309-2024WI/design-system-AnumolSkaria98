@@ -117,26 +117,38 @@ main {
   background-color: var(--clr-accent-primary);
 }
 
-.primary-bg
-{
+.primary-bg {
   color: var(--clr-text-primary);
 }
-.secondary-bg{
+.secondary-bg {
   color: var(--clr-text-secondary);
 }
-.primary-text{
+.primary-text {
   color: var(--clr-bg-primary);
 }
-.secondary-text{
+.secondary-text {
   color: var(--clr-bg-primary);
 }
-.accent-colour{
+.accent-colour {
   color: var(--clr-bg-primary);
 }
 
 /* Typography */
-.c-sidenav__link.active{
+.c-sidenav__link.active {
   background-color: var(--clr-accent-primary);
+}
+.typography{
+  padding-left: 130px;
+  text-align: center;
+}
+
+.u-heading {
+  font-family: var(--heading-font);
+  font-size: var(--heading-font-size);
+  font-weight: var(--heading-font-weight);
+  line-height: var(--heading-line-height);
+  letter-spacing: var(--heading-letter-spacing);
+  color: var(--heading-color);
 }
 
 
