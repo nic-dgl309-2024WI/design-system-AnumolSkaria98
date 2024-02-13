@@ -3,6 +3,7 @@
   /* background-color: var(--clr-light); */
   display: flex; /* Use flexbox */
   justify-content: space-between; /* Distribute items evenly */
+  background-color: var(--clr-bg-primary);
 }
 
 /* .topnav .active{
@@ -31,17 +32,18 @@
 }
 
 .c-topnav__link:hover {
-  background-color: var(--clr-secondary);
-  color: var(--clr-primary);
+  /* background-color: var(--clr-accent-primary); */
+  color: var(--clr-accent-primary);
 }
 
 /* Styles for side navigation bar */
 .c-sidenav {
   display: none; /* hide sidebar by default on small screen */
+  /* background-color: var(--clr-bg-primary); */
 }
 
 .c-sidenav p {
-  color: var(--clr-primary);
+  color: var(--clr-text-primary);
 }
 
 .c-sidenav__list {
@@ -52,22 +54,25 @@
   padding: 1px 8px 3px 22px;
   text-decoration: none;
   font-size: 15px;
-  color: var(--clr-primary);
+  color: var(--clr-text-secondary);
   display: block;
 }
 
 .c-sidenav__links {
   text-decoration: none;
   display: block;
-  color: var(--clr-primary);
+  color: var(--clr-text-secondary);
 }
 
-.c-sidenav__link:hover {
-  color: var(--clr-secondary);
+.c-sidenav__links:hover {
+  color: var(--clr-accent-primary);
 }
-.c-sidenav__link.active-colour{
-  color: var(--clr-text-primary);
-  background-color: var(--clr-bg-primary);
+.c-sidenav__link:hover {
+  color: var(--clr-accent-primary);
+}
+.c-sidenav__link.active-colour {
+  color: var(--clr-text-secondary);
+  background-color: var(--clr-accent-primary);
   width: 50%;
 }
 
@@ -82,6 +87,7 @@
   display: block;
   cursor: pointer;
 }
+
 /* Styles for colours.html */
 main {
   display: block;
@@ -95,23 +101,38 @@ main {
   height: 70px;
   text-align: center;
 }
-.bg-primary{
+.bg-primary {
   background-color: var(--clr-bg-primary);
 }
-.bg-secondary{
+.bg-secondary {
   background-color: var(--clr-bg-secondary);
 }
-.bg-primary-text
-{
+.bg-primary-text {
   background-color: var(--clr-text-primary);
 }
-.bg-secondary-text{
+.bg-secondary-text {
   background-color: var(--clr-text-secondary);
 }
-.accent{
+.accent {
   background-color: var(--clr-accent-primary);
 }
 
+.primary-bg
+{
+  color: var(--clr-text-primary);
+}
+.secondary-bg{
+  color: var(--clr-text-secondary);
+}
+.primary-text{
+  color: var(--clr-bg-primary);
+}
+.secondary-text{
+  color: var(--clr-bg-primary);
+}
+.accent-colour{
+  color: var(--clr-bg-primary);
+}
 
 /* Reference - ChatGPT */
 
@@ -135,7 +156,7 @@ main {
     position: fixed;
     top: 48px;
     left: 0;
-    /* background-color: var(--clr-light); */
+    background-color: var(--clr-bg-secondary);
     z-index: 1;
   }
 
