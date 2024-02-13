@@ -118,7 +118,7 @@ main {
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
   .c-hamburger {
-    display: none; /* Hide hamburger icon on larger screens */
+    display: none !important; /* Hide hamburger icon on larger screens */
   }
   .c-cancel {
     display: none;
@@ -129,7 +129,7 @@ main {
   }
 
   .c-sidenav {
-    display: block; /* Show side navbar on larger screens */
+    display: block !important; /* Show side navbar on larger screens */
     height: 100%;
     width: 250px;
     position: fixed;
