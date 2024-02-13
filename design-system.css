@@ -142,24 +142,16 @@ main {
   text-align: center;
 }
 
-.u-heading {
+.u-ff-serif {
   font-family: var(--heading-font);
-  font-size: var(--heading-font-size);
-  font-weight: var(--heading-font-weight);
-  line-height: var(--heading-line-height);
-  letter-spacing: var(--heading-letter-spacing);
-  color: var(--heading-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: #333;
 }
 
-.u-display{
 
-  font-family: var(--body-font);
-  font-size: var(--body-font-size);
-  font-weight: var(--body-font-weight);
-  line-height: var(--body-line-height);
-  letter-spacing: var(--body-letter-spacing);
-  color: #666; /* or use a variable if needed */
-}
 
 
 /* Reference - ChatGPT */
