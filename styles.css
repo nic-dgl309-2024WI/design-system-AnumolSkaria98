@@ -11,6 +11,19 @@
     --clr-text-primary:#222222;
     --clr-text-secondary:#000000;
     --clr-accent-primary:#6701A7;
+
+  /* Variables for typography */
+    --heading-font: 'Playfair Display', serif;
+    --body-font: 'Inter', sans-serif;
+    --heading-font-size: 2.5rem;
+    --body-font-size: 1rem;
+    --heading-font-weight: 700;
+    --body-font-weight: 400;
+    --heading-line-height: 1.2;
+    --body-line-height: 1.5;
+    --heading-letter-spacing: 0.05em;
+    --body-letter-spacing: 0;
+    
 }
 /* Apply border box fix */
 * {
@@ -24,4 +37,7 @@ body, h1, h2, h3, h4, h5, h6, p, figure, picture {
   ul, ol {
     padding: 0;
   } 
+
+
+  
 
