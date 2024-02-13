@@ -134,6 +134,12 @@ main {
   color: var(--clr-bg-primary);
 }
 
+/* Typography */
+.c-sidenav__link.active{
+  background-color: var(--clr-accent-primary);
+}
+
+
 /* Reference - ChatGPT */
 
 /* Media query for screens larger than 700px */
