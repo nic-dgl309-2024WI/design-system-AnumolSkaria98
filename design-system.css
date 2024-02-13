@@ -151,6 +151,16 @@ main {
   color: var(--heading-color);
 }
 
+.u-display{
+
+  font-family: var(--body-font);
+  font-size: var(--body-font-size);
+  font-weight: var(--body-font-weight);
+  line-height: var(--body-line-height);
+  letter-spacing: var(--body-letter-spacing);
+  color: #666; /* or use a variable if needed */
+}
+
 
 /* Reference - ChatGPT */
 
