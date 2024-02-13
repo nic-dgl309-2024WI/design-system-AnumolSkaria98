@@ -6,11 +6,11 @@
     --clr-light:#d3d3d3;
     --clr-white:#ffffff;
     /* colours for the redesign site */
-    --clr-bg-primary:#F0ECE2;
-    --Clr-bg-secondary:#ffffff;
-    --clr-text-primary:#333333;
-    --clr-text-secondary:#666666;
-    --clr-accent-primary:#009688;
+    --clr-bg-primary:#FFFDF6;
+    --Clr-bg-secondary:#FFD596;
+    --clr-text-primary:#222222;
+    --clr-text-secondary:#000000;
+    --clr-accent-primary:#6701A7;
 }
 /* Apply border box fix */
 * {
