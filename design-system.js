@@ -18,4 +18,3 @@ function toggleNav() {
     cancel.style.display = "block"; // Show cancel icon
   }
 }
-

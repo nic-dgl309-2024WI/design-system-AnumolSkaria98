@@ -137,7 +137,7 @@ main {
 .c-sidenav__link.active {
   background-color: var(--clr-accent-primary);
 }
-.typography{
+.typography {
   padding-left: 130px;
   text-align: center;
 }
@@ -160,7 +160,6 @@ main {
   color: var(--clr-text-secondary);
 }
 
-
 /* Reference - ChatGPT */
 
 /* Media query for screens larger than 700px */
@@ -169,7 +168,7 @@ main {
     display: none !important; /* Hide hamburger icon on larger screens */
   }
   .c-cancel {
-    display: none;
+    display: none !important;
   }
 
   .c-topnav__links {
