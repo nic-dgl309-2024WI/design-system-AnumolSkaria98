@@ -5,12 +5,13 @@
   --clr-accent: var(--clr-secondary);
   --clr-light: #d3d3d3;
   --clr-white: #ffffff;
+
   /* colours for the redesign site */
-  --clr-bg-primary: #fffdf6;
-  --Clr-bg-secondary: #ffd596;
-  --clr-text-primary: #222222;
-  --clr-text-secondary: #000000;
-  --clr-accent-primary: #6701a7;
+  --clr-bg-primary: #eff0f3;
+  --Clr-bg-secondary: #fffffe;
+  --clr-text-primary: #0d0d0d;
+  --clr-text-secondary: #2a2a2a;
+  --clr-accent-primary: #ff8e3c;
 
   /* Variables for typography */
   --heading-font: "Playfair Display", serif;
