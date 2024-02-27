@@ -24,7 +24,7 @@
   font-size: 17px;
 }
 /* active state to indicate which page you are on */
-.c-topnav__link.is-active {
+.is-active {
   background-color: var(
     --clr-bg-primary
   ); /* Change background color to indicate active state */
@@ -70,10 +70,8 @@
 .c-sidenav__link:hover {
   color: var(--clr-accent-primary);
 }
-.c-sidenav__link.active-colour {
-  color: var(--clr-text-secondary);
-  background-color: var(--clr-accent-primary);
-  width: 50%;
+.c-sidenav__link.is-active-colour {
+  color: var(--clr-accent-primary);
 }
 
 /* Styles for the hamburger icon */
