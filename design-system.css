@@ -24,11 +24,11 @@
   font-size: 17px;
 }
 /* active state to indicate which page you are on */
-.c-topnav__link.active {
+.c-topnav__link.is-active {
   background-color: var(
-    --clr-accent
+    --clr-bg-primary
   ); /* Change background color to indicate active state */
-  color: var(--clr-white); /* Change text color to improve readability */
+  color: var(--clr-accent-primary); /* Change text color to improve readability */
 }
 
 .c-topnav__link:hover {
