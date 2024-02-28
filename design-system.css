@@ -127,8 +127,8 @@ main {
 
 
 /* Typography */
-.c-sidenav__link.active {
-  background-color: var(--clr-accent-primary);
+.c-sidenav__link.is-active-typography {
+  color: var(--clr-accent-primary);
 }
 .typography {
   padding-left: 130px;
