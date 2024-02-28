@@ -16,14 +16,6 @@
   /* Variables for typography */
   --heading-font: "merriweather", serif;
   --body-font: "Roboto", sans-serif;
-  /* --heading-font-size: 2.5rem;
-    --body-font-size: 1rem;
-    --heading-font-weight: 700;
-    --body-font-weight: 400;
-    --heading-line-height: 1.2;
-    --body-line-height: 1.5;
-    --heading-letter-spacing: 0.05em;
-    --body-letter-spacing: 0; */
 }
 /* Apply border box fix */
 * {
@@ -53,4 +45,23 @@ ol {
   width: 50%;
   height: 110px;
   text-align: center;
+}
+/* utility class for fonts */
+/* serief family */
+.u-ff-serif {
+  font-family: var(--heading-font);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: var(--clr-text-primary);
+}
+/* sans family */
+.u-ff-sans {
+  font-family: var(--body-font);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0;
+  color: var(--clr-text-secondary);
 }
