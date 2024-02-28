@@ -28,7 +28,9 @@
   background-color: var(
     --clr-bg-primary
   ); /* Change background color to indicate active state */
-  color: var(--clr-accent-primary); /* Change text color to improve readability */
+  color: var(
+    --clr-accent-primary
+  ); /* Change text color to improve readability */
 }
 
 .c-topnav__link:hover {
@@ -98,8 +100,7 @@ main {
   background-color: var(--clr-bg-primary);
 }
 /* primary background colour div elements */
-.primary-bg-items
-{
+.primary-bg-items {
   color: var(--clr-text-primary);
 }
 
@@ -120,11 +121,9 @@ main {
   background-color: var(--clr-accent-primary);
 }
 /* accent colour div elements */
-.accent-colour-items
-{
+.accent-colour-items {
   color: var(--clr-text-secondary);
 }
-
 
 /* Typography */
 .c-sidenav__link.is-active-typography {
@@ -134,9 +133,36 @@ main {
   padding-left: 130px;
   text-align: center;
 }
-.typography-example{
+.typography-example {
   color: var(--clr-accent-primary);
 }
+
+/* Define utility classes for font usage */
+
+.u-fs-800 {
+  font-size: 2.25rem; /* Example font size */
+}
+
+.u-fw-700 {
+  font-weight: 700; /* Example font weight */
+}
+
+.u-fw-400 {
+  font-weight: 400; /* Example font weight */
+}
+
+.u-letter-spacing-2 {
+  letter-spacing: 2px; /* Example letter spacing */
+}
+
+.u-text-accent {
+  color: var(--clr-accent-primary); /* Example accent color */
+}
+
+.u-text-primary {
+  color: var(--clr-text-primary); /* Example primary text color */
+}
+
 /* Reference - ChatGPT */
 
 /* Media query for screens larger than 700px */
