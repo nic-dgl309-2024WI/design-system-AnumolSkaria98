@@ -96,40 +96,41 @@ main {
 .u-colorswatch {
   display: block;
   width: 50%;
-  height: 70px;
+  height: 110px;
   text-align: center;
 }
+/* Primary background colour for the website */
 .bg-primary {
   background-color: var(--clr-bg-primary);
 }
+/* primary background colour div elements */
+.primary-bg-items
+{
+  color: var(--clr-text-primary);
+}
+
+/* secondary background colour for the website */
 .bg-secondary {
   background-color: var(--clr-bg-secondary);
 }
-.bg-primary-text {
-  background-color: var(--clr-text-primary);
+/* primary text colour */
+.primary-text {
+  color: var(--clr-text-primary);
 }
-.bg-secondary-text {
-  background-color: var(--clr-text-secondary);
+/* secondary text colour */
+.secondary-text {
+  color: var(--clr-text-secondary);
 }
+/* accent colour */
 .accent {
   background-color: var(--clr-accent-primary);
 }
-
-.primary-bg {
-  color: var(--clr-text-primary);
-}
-.secondary-bg {
+/* accent colour div elements */
+.accent-colour-items
+{
   color: var(--clr-text-secondary);
 }
-.primary-text {
-  color: var(--clr-bg-primary);
-}
-.secondary-text {
-  color: var(--clr-bg-primary);
-}
-.accent-colour {
-  color: var(--clr-bg-primary);
-}
+
 
 /* Typography */
 .c-sidenav__link.active {
