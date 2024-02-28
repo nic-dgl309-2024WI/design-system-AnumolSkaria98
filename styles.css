@@ -47,3 +47,10 @@ ul,
 ol {
   padding: 0;
 }
+/* colourswatch */
+.u-colorswatch {
+  display: block;
+  width: 50%;
+  height: 110px;
+  text-align: center;
+}
