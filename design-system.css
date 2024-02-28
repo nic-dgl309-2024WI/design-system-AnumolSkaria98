@@ -134,7 +134,9 @@ main {
   padding-left: 130px;
   text-align: center;
 }
-
+.typography-example{
+  color: var(--clr-accent-primary);
+}
 /* Reference - ChatGPT */
 
 /* Media query for screens larger than 700px */
