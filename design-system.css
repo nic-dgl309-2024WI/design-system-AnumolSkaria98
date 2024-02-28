@@ -5,17 +5,11 @@
   justify-content: space-between; /* Distribute items evenly */
   background-color: var(--clr-bg-primary);
 }
-
-/* .topnav .active{
-  background-color: var(--clr-accent);
-  height: auto;
-  width: 250px;
-} */
-
+/* Use flexbox for inner links */
 .c-topnav__links {
-  display: none; /* Use flexbox for inner links */
+  display: none; 
 }
-
+/* Style topnav links */
 .c-topnav__link {
   color: var(--clr-primary);
   text-align: center;
@@ -27,31 +21,32 @@
 .is-active {
   background-color: var(
     --clr-bg-primary
-  ); /* Change background color to indicate active state */
+  ); 
+  /* Change background color to indicate active state */
   color: var(
     --clr-accent-primary
   ); /* Change text color to improve readability */
 }
 
+/* set color to the hover state of topnav links */
 .c-topnav__link:hover {
-  /* background-color: var(--clr-accent-primary); */
   color: var(--clr-accent-primary);
 }
 
 /* Styles for side navigation bar */
 .c-sidenav {
   display: none; /* hide sidebar by default on small screen */
-  /* background-color: var(--clr-bg-primary); */
 }
 
+/* Set colour to the p elements on side navbar */
 .c-sidenav p {
   color: var(--clr-text-primary);
 }
-
+/* Remove default bullet points from the list */
 .c-sidenav__list {
-  list-style-type: none; /* Remove default bullet points from the list */
+  list-style-type: none; 
 }
-
+/* Style sidenav link */
 .c-sidenav__link {
   padding: 1px 8px 3px 22px;
   text-decoration: none;
@@ -59,35 +54,33 @@
   color: var(--clr-text-secondary);
   display: block;
 }
-
+/* set text decoration to none for sidenav links */
 .c-sidenav__links {
   text-decoration: none;
   display: block;
   color: var(--clr-text-secondary);
 }
-
-.c-sidenav__links:hover {
-  color: var(--clr-accent-primary);
-}
 .c-sidenav__link:hover {
   color: var(--clr-accent-primary);
 }
+/*  set color properties to the hover state */
+.c-sidenav__links:hover {
+  color: var(--clr-accent-primary);
+}
+/* style the active state of sidenav */
 .c-sidenav__link.is-active-colour {
   color: var(--clr-accent-primary);
 }
-
 /* Styles for the hamburger icon */
 .c-hamburger {
   display: block;
   cursor: pointer;
 }
-
 /* Styles for the cancel icon */
 .c-cancel {
   display: block;
   cursor: pointer;
 }
-
 /* Styles for colours.html */
 main {
   display: block;
@@ -186,9 +179,9 @@ main {
   .c-cancel {
     display: none !important;
   }
-
+/* Show top nav links on larger screens */
   .c-topnav__links {
-    display: block; /* Show top nav links on larger screens */
+    display: block; 
   }
 
   .c-sidenav {
@@ -205,6 +198,7 @@ main {
   .c-sidenav__link {
     display: block;
   }
+  /* hidden side nav links on large screen */
   .c-sidenav__links {
     display: none;
   }
