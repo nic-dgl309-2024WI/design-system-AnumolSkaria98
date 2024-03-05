@@ -108,4 +108,10 @@ ol {
 .l-grid {
   display: grid;
 }
+/* Container for mobile */
+.c-container {
+  max-width: 100%;
+  margin: 0 auto; /* Center align */
+  padding: 20px; 
+}
 
