@@ -73,10 +73,9 @@ ol {
   margin-left: 1rem; /* 16px margin-left */
 }
 .l-mx-1 {
-  margin-left: 1rem; /* 16px margin-left */
-  margin-right: 1rem; /* 16px margin-right */
+  margin: 0 1rem; /* 16px margin-left and margin-right */
 }
 .l-my-1 {
-  margin-top: 1rem; /* 16px margin-top */
-  margin-bottom: 1rem; /* 16px margin-bottom */
+  margin: 1rem 0; /* 16px margin-top and margin-bottom */
 }
+
