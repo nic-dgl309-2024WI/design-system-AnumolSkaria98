@@ -101,3 +101,11 @@ ol {
   padding: 1rem 0; /* 16px padding-top and padding-bottom */
 }
 
+/* Base layout classes */
+.l-flex {
+  display: flex;
+}
+.l-grid {
+  display: grid;
+}
+
