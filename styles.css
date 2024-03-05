@@ -78,4 +78,26 @@ ol {
 .l-my-1 {
   margin: 1rem 0; /* 16px margin-top and margin-bottom */
 }
+/* Padding */
+.l-p {
+  padding: 1rem; /* 16px padding */
+}
+.l-pt-1 {
+  padding-top: 1rem; /* 16px padding-top */
+}
+.l-pr-1 {
+  padding-right: 1rem; /* 16px padding-right */
+}
+.l-pb-1 {
+  padding-bottom: 1rem; /* 16px padding-bottom */
+}
+.l-pl-1 {
+  padding-left: 1rem; /* 16px padding-left */
+}
+.l-px-1 {
+  padding: 0 1rem; /* 16px padding-left and padding-right */
+}
+.l-py-1 {
+  padding: 1rem 0; /* 16px padding-top and padding-bottom */
+}
 
