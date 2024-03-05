@@ -56,3 +56,27 @@ ol {
 .u-ff-sans {
   font-family: var(--body-font);
 }
+/* margins */
+.l-m {
+  margin: 1rem; /* 16px margin */
+}
+.l-mt-1 {
+  margin-top: 1rem; /* 16px margin-top */
+}
+.l-mr-1 {
+  margin-right: 1rem; /* 16px margin-right */
+}
+.l-mb-1 {
+  margin-bottom: 1rem; /* 16px margin-bottom */
+}
+.l-ml-1 {
+  margin-left: 1rem; /* 16px margin-left */
+}
+.l-mx-1 {
+  margin-left: 1rem; /* 16px margin-left */
+  margin-right: 1rem; /* 16px margin-right */
+}
+.l-my-1 {
+  margin-top: 1rem; /* 16px margin-top */
+  margin-bottom: 1rem; /* 16px margin-bottom */
+}
