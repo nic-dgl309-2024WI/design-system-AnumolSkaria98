@@ -114,4 +114,9 @@ ol {
   margin: 0 auto; /* Center align */
   padding: 20px; 
 }
+/* max-width for mobile screen */
+.c-container-max-mob
+{
+  max-width: 600px;
+}
 
