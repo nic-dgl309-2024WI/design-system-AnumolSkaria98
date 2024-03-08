@@ -204,9 +204,26 @@ main {
   background-color: #f2f2f2;
 }
 /* Conatiner Page */
+.container-page{
+  padding-left: 150px;
+}
 .is-active-container{
   color: var(--clr-accent-primary);
 }
+.container-page__table{
+  border-collapse: collapse;
+  width: 50%;
+}
+.container-page__table th,
+.container-page__table td{
+  border: 1px solid #ddd;
+  text-align: left;
+  width: 50%;
+}
+.container-page__table th{
+  background-color: #f2f2f2;
+}
+
 
 /* Reference - ChatGPT */
 
