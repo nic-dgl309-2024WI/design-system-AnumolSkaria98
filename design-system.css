@@ -173,17 +173,17 @@ main {
 /* .spacing{
   text-align: center;
 } */
-.spacing__table{
+.margin__table{
   border-collapse: collapse;
   width: 50%;
 }
-.spacing__table th,
-.spacing__table td{
+.margin__table th,
+.margin__table td{
   border: 1px solid #ddd;
   text-align: left;
   width: 50%;
 }
-.spacing__table th{
+.margin__table th{
   background-color: #f2f2f2;
 }
 
