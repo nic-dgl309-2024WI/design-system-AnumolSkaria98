@@ -119,4 +119,7 @@ ol {
 {
   max-width: 600px;
 }
-
+.c-container-full-width {
+  width: 100%;
+  max-width: none; /* Ensures the container is always full width */
+}
