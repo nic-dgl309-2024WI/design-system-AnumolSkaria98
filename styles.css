@@ -16,6 +16,8 @@
   /* Variables for typography */
   --heading-font: "merriweather", serif;
   --body-font: "Roboto", sans-serif;
+
+  overscroll-behavior: none;
 }
 /* Apply border box fix */
 * {
