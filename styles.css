@@ -123,3 +123,15 @@ ol {
   width: 100%;
   max-width: none; /* Ensures the container is always full width */
 }
+
+/* Media query for desktop sizes */
+@media (min-width: 768px) { 
+  .c-container {
+      
+      padding: 0 30px;
+  }
+
+  .c-container-max-desktop {
+      max-width: 1140px; 
+  } 
+}
