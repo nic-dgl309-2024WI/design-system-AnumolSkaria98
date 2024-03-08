@@ -173,6 +173,9 @@ main {
 /* .spacing{
   text-align: center;
 } */
+.is-active-spacing{
+  color: var(--clr-accent-primary);
+}
 .margin__table{
   border-collapse: collapse;
   width: 50%;
