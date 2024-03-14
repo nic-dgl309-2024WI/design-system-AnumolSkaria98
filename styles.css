@@ -219,6 +219,26 @@ ol {
   display: grid;
 }
 
+.l-grid-columns {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.l-grid-rows {
+  grid-template-rows: auto;
+}
+
+.l-gap {
+  gap: 16px;
+}
+
+.l-justify-items-center {
+  justify-items: center;
+}
+
+.l-align-content-center {
+  align-content: center;
+}
+
 /* Container for mobile */
 .c-container {
   max-width: 100%;
