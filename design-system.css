@@ -247,6 +247,11 @@ main {
   background-color: #f2f2f2;
 }
 
+/* about-me page styles */
+.is-about-active
+{
+  color: var(--clr-accent-primary);
+}
 
 /* Reference - ChatGPT */
 
