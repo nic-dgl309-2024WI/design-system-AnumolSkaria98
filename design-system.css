@@ -4,6 +4,10 @@
   display: flex; /* Use flexbox */
   justify-content: space-between; /* Distribute items evenly */
   background-color: var(--clr-bg-primary);
+  position: fixed;
+  width: 100%;
+  top: 0px; /* Adjusted value */
+  z-index: 1000; /* Ensure it's above other content */
 }
 /* Use flexbox for inner links */
 .c-topnav__links {
