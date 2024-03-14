@@ -187,6 +187,9 @@ main {
 .spacing {
   flex-basis: 50%;
 }
+.padding{
+  flex-basis: 50%;
+}
 
 .margin__table,
 .padding__table {
