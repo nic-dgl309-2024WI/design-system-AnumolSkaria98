@@ -177,6 +177,22 @@ main {
 /* .spacing{
   text-align: center;
 } */
+/* Add this CSS to your existing stylesheet */
+
+.spacing-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spacing {
+  flex-basis: 50%;
+}
+
+.margin__table,
+.padding__table {
+  width: 100%;
+}
+
 .is-active-spacing{
   color: var(--clr-accent-primary);
 }
