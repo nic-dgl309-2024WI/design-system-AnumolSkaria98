@@ -1,17 +1,18 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--Topnav-->
     <div class="c-topnav u-ff-sans" id="myTopnav">
-      <a href="index.html" class="c-topnav__link ">Design System</a>
+      <a href="index.html" class="c-topnav__link">Design System</a>
 
       <span class="c-toggle-nav" onclick="toggleNav()">
         <span class="c-hamburger">&#9776;</span>
@@ -20,54 +21,72 @@
         <!-- Cancel icon initially hidden -->
       </span>
       <div class="c-topnav__links u-ff-sans">
-        <a href="about-me.html" class="c-topnav__link is-about-active">About Me</a>
+        <a href="about-me.html" class="c-topnav__link is-about-active"
+          >About Me</a
+        >
         <a href="#" class="c-topnav__link">Demo site</a>
       </div>
-    </div>  
-   <main class="bg-primary ">
-     <!-- add your name -->
-    <h1>Hi! My name is Anumol Skaria.</h1>
-    <h2>I am a software developer.</h2>
-    <!-- add your portrait photo -->
-    <img
-      src="images/anumol.jpeg"
-      alt="Portrait of lorem ipsum"
-      style="width: 500px; height: 500px"
-    />
-    <!-- add a short biography. Include where you are from, your education background, your current program, and something interesting about yourself. -->
-    <p>
-      As a Computer Application graduate and currently studying Digital Design
-      and Development at North Island College, I bring a meticulous, hardworking
-      approach to my work. Proficient in software languages such as HTML, CSS,
-      JavaScript, PHP, and SQL, I am adept at both front-end and back-end
-      development tasks. With strong teamwork skills, I leverage my managerial,
-      communication, and decision-making abilities to drive projects forward.
-      Organized and motivated, I am eager to apply my time management and
-      organizational skills in various environments.
-    </p>
-    <!-- add a list of your favourite web development tools. -->
-    <p>My favourite tools are</p>
-    <ul>
-      <li>Visual Studio Code</li>
-      <li>HTML 5</li>
-      <li>Bootstrap</li>
-    </ul>
-    <!-- add a list of your strongest web development skills. -->
-    <p>My skills include</p>
-    <ul>
-      <li>HTML and CSS</li>
-      <li>Bootstrap</li>
-      <li>PHP and Laravel</li>
-    </ul>
-   </main>
-     
+    </div>
+
+    <div
+      class="l-flex l-flex-column l-justify-center l-align-items-center bg-primary"
+    >
+      <!-- add your name -->
+      <h1 class="l-mt-2-5 l-pt-2-5 u-ff-serif u-fs-800 primary-text u-fw-700">
+        Hi! My name is Anumol Skaria.
+      </h1>
+      <h2 class="l-mt-1-25 u-ff-serif primary-text u-fw-700 l-mb-1">
+        I am a software developer.
+      </h2>
+
+
+      <!-- add your portrait photo -->
+      <img
+        src="images/anumol.jpeg"
+        alt="Portrait of lorem ipsum"
+        style="width: 500px; height: 500px"
+      />
       
-      <link rel="stylesheet" href="styles.css" />
-      <link rel="stylesheet" href="design-system.css" />
-      <script src="design-system.js"></script>
+
+      <!-- add a short biography. Include where you are from, your education background, your current program, and something interesting about yourself. -->
+      <p class="u-ff-sans u-fw-400 l-mt-1-25 l-pl-2 l-pr-2">
+        As a Computer Application graduate and currently studying Digital Design
+        and Development at North Island College, I bring a meticulous,
+        hardworking approach to my work. Proficient in software languages such
+        as HTML, CSS, JavaScript, PHP, and SQL, I am adept at both front-end and
+        back-end development tasks. With strong teamwork skills, I leverage my
+        managerial, communication, and decision-making abilities to drive
+        projects forward. Organized and motivated, I am eager to apply my time
+        management and organizational skills in various environments.
+      </p>
+    </div>
+      <!-- add a list of your favourite web development tools. -->
+      <div class="l-flex l-justify-center l-gap bg-primary" >
+        <div class="l-flex l-flex-center l-flex-column l-pl-1-5">
+        <p class="u-ff-sans u-fw-700 primary-text l-mt-2-25">
+          My favourite tools are
+        </p>
+        <ul class="u-ff-sans">
+          <li>Visual Studio Code</li>
+          <li>HTML 5</li>
+          <li>Bootstrap</li>
+        </ul>
+        </div>
+        <div class="l-flex l-flex-center l-flex-column l-pl-1-5">
+
+        <!-- add a list of your strongest web development skills. -->
+        <p class="u-ff-sans u-fw-700 primary-text l-mt-2-25">My skills include</p>
+        <ul class="u-ff-sans">
+          <li>HTML and CSS</li>
+          <li>Bootstrap</li>
+          <li>PHP and Laravel</li>
+        </ul>
+        </div>
+        </div>
+
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="design-system.css" />
+    <script src="design-system.js"></script>
   </body>
 </html>
-
-
-
-
