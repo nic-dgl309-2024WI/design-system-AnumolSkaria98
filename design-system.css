@@ -92,6 +92,11 @@ main {
   align-items: center;
   padding-left: 150px;
 }
+.colour-box{
+  width: 600px;
+  height: 100px;
+  border: 1px solid grey;
+}
 /* Primary background colour for the website */
 .bg-primary {
   background-color: var(--clr-bg-primary);
