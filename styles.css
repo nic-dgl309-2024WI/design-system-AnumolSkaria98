@@ -391,12 +391,7 @@ ol {
   max-width: none; /* Ensures the container is always full width */
 }
 
-/* Style navigation bar */
-.heading-text{
-  /* color: var(--clr-text-primary); */
-  color: white;
-}
-
+/* Define utility classes for font usage */
 
 .u-fs-800 {
   font-size: 2.25rem; /* Example font size */
@@ -405,6 +400,28 @@ ol {
 .u-fw-800 {
   font-weight: 800; /* Example font weight */
 }
+
+.u-fw-400 {
+  font-weight: 400; /* Example font weight */
+}
+
+.u-letter-spacing-2 {
+  letter-spacing: 2px; /* Example letter spacing */
+}
+
+.u-text-accent {
+  color: var(--clr-accent-primary); /* Example accent color */
+}
+
+.u-text-primary {
+  color: var(--clr-text-primary); /* Example primary text color */
+}
+/* Style navigation bar */
+.heading-text{
+  /* color: var(--clr-text-primary); */
+  color: white;
+}
+
 .c-topnav {
   overflow: hidden;
   /* background-color: var(--clr-light); */
@@ -482,6 +499,41 @@ ol {
   text-decoration: none;
   border-radius: 4px; /* Example border radius */
   padding: 10px 20px; /* Adjust padding for button */
+}
+
+/* Announcement section */
+.c-announcement {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.c-announcement__p {
+  margin: 0;
+}
+
+.c-highlight-text {
+  position: relative;
+  display: inline-block;
+  animation: highlight 2s ease-in-out infinite alternate;
+}
+
+.c-highlight-text__important {
+  color: var(--clr-accent-primary) /* Change this color as per your preference */
+}
+
+@keyframes highlight {
+  0% {
+    transform: scale(1);
+    font-size: 20px;
+  }
+  100% {
+    transform: scale(1.1);
+    font-size: 20px;
+  }
 }
 
 
