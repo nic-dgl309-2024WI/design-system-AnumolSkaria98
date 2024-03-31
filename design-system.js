@@ -1,5 +1,5 @@
 // Reference
-// https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 // Modified this code with Chat GPT
 
 function toggleNav() {
@@ -18,3 +18,9 @@ function toggleNav() {
     cancel.style.display = "block"; // Show cancel icon
   }
 }
+
+
+
+
+
+

@@ -239,6 +239,7 @@ ol {
   align-content: center;
 }
 
+
 /* Container for mobile */
 .c-container {
   max-width: 100%;
@@ -255,6 +256,61 @@ ol {
   max-width: none; /* Ensures the container is always full width */
 }
 
+/* Style navigation bar */
+
+.c-topnav {
+  overflow: hidden;
+  /* background-color: var(--clr-light); */
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Distribute items evenly */
+  background-color: var(--clr-bg-primary);
+  position: fixed;
+  width: 100%;
+  top: 0px; /* Adjusted value */
+  z-index: 1000; /* Ensure it's above other content */
+}
+/* Use flexbox for inner links */
+.c-topnav__links {
+  display: none; 
+}
+/* Style topnav links */
+.c-topnav__link {
+  color: var(--clr-text-primary);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* active state to indicate which page you are on */
+.is-active {
+  background-color: var(
+    --clr-bg-primary
+  ); 
+  /* Change background color to indicate active state */
+  color: var(
+    --clr-accent-primary
+  ); /* Change text color to improve readability */
+}
+
+/* set color to the hover state of topnav links */
+.c-topnav__link:hover {
+  color: var(--clr-accent-primary);
+}
+/* Styles for the hamburger icon */
+.c-hamburger {
+  display: block;
+  cursor: pointer;
+}
+/* Styles for the cancel icon */
+.c-cancel {
+  display: block;
+  cursor: pointer;
+}
+
+/* Style the header */
+.c-header{
+ text-align: center;
+}
 /* Media query for desktop sizes */
 @media (min-width: 768px) { 
   .c-container {
@@ -265,4 +321,28 @@ ol {
   .c-container-max-desktop {
       max-width: 1140px; 
   } 
+    .c-hamburger {
+      display: none !important; /* Hide hamburger icon on larger screens */
+    }
+    .c-cancel {
+      display: none !important;
+    }
+  /* Show top nav links on larger screens */
+    .c-topnav__links {
+      display:flex !important;
+      gap: 20px;
+      margin:5px;
+      text-decoration: none;
+      color: var(--clr-text-primary);
+    }
+    .c-topnav__links:hover
+    {
+      color: var(--clr-accent-primary);
+    }
+  
 }
+
+
+
+
+
