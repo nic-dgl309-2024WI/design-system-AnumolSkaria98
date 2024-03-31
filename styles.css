@@ -573,6 +573,57 @@ ol {
   padding: 10px 20px;
 }
 
+/* FAQ Section */
+.c-faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px; /* Equal space from left and right */
+}
+
+.c-faq-container__heading {
+  padding: 20px 0; /* Add some padding at the top and bottom */
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.question h3 {
+  color:var(--clr-text-primary);
+  margin-bottom: 5px;
+}
+
+.question p {
+  color:var(--clr-text-secondary);
+}
+
+/* Toggle Icon */
+.question h3::after {
+  content: "\f078"; /* FontAwesome icon code for plus sign */
+  font-family: "Font Awesome 5 Free";
+  float: right;
+  font-weight: bold;
+}
+
+.question.active h3::after {
+  content: "\f077"; /* FontAwesome icon code for minus sign */
+}
+
+/* Hide Answer by Default */
+.question p {
+  display: none;
+}
+
+/* Show Answer When Question is Active */
+.question.active p {
+  display: block;
+}
+
 /* Media query for desktop sizes */
 @media (min-width: 768px) {
   .c-container {

@@ -13,3 +13,20 @@ function toggleNav() {
       cancel.style.display = "none"; // Hide cancel icon
     }
   }
+
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const questions = document.querySelectorAll('.question');
+    
+    questions.forEach(question => {
+        question.addEventListener('click', function() {
+            questions.forEach(q => {
+                if (q !== question) {
+                    q.classList.remove('active');
+                }
+            });
+            question.classList.toggle('active');
+        });
+    });
+});
