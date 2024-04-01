@@ -683,7 +683,47 @@ p {
   background-color: #0056b3;
 }
 
+/* Testimonial */
 
+.testimonials {
+  width: 80%;
+  margin: 100px auto;
+  /* position: relative; */
+  overflow: hidden;
+  text-align: center;
+  height: 420px;
+}
+
+.testimonial-slide {
+  display: none;
+}
+
+.testimonial-slide img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.testimonial-slide p {
+  font-style: italic;
+}
+
+.pagination {
+  text-align: center;
+  margin: 10px 10px;
+}
+
+.pagination button {
+  background-color: #bbb;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin: 0 2px;
+  border-radius: 50%;
+}
+
+.pagination button.active {
+  background-color: #717171;
+}
 
 /* Footer */
 .map-section {
@@ -812,4 +852,13 @@ p {
   .map-section {
     order: -1; /* Make map section come first */
   }
+  
+.testimonials {
+  width: 80%;
+  margin: 100px auto;
+  /* position: relative; */
+  overflow: hidden;
+  text-align: center;
+  height: 230px;
+}
 }
