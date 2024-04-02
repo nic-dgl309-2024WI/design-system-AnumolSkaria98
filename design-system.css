@@ -257,6 +257,10 @@ main {
 {
   color: var(--clr-accent-primary);
 }
+/* Hero Page */
+.is-hero-active{
+  color: var(--clr-accent-primary);
+}
 
 /* Reference - ChatGPT */
 
