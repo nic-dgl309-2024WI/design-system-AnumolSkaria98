@@ -50,7 +50,9 @@
 
         <p>Blocks</p>
 
-        <li><a href="hero.html" class="c-sidenav__link is-hero-active">12 Hero</a></li>
+        <li>
+          <a href="hero.html" class="c-sidenav__link is-hero-active">12 Hero</a>
+        </li>
         <li><a href="#" class="c-sidenav__link">13 Carousel</a></li>
         <li><a href="#" class="c-sidenav__link">14 Slats</a></li>
         <li><a href="#" class="c-sidenav__link">15 Footer</a></li>
@@ -62,7 +64,72 @@
         <li><a href="#" class="c-sidenav__link">19 lists</a></li>
       </ul>
     </div>
-    
+    <main>
+      <h1 class="u-ff-serif u-fs-800 u-fw-700 l-mt-2-5 l-pt-2-5">
+        Hero Section Example
+      </h1>
+      <section class="c-hero">
+        <h1
+          class="c-hero__heading l-mt-2 heading-text u-fw-800 u-fs-800 u-ff-serif"
+        >
+          Welcome to Outback Nursery
+        </h1>
+        <a href="#" class="c-hero__button .l-px-2">Explore Now</a>
+      </section>
+      <section>
+        <h1 class="u-ff-serif u-fs-800 u-fw-700 l-mt-2-5">
+          CSS Code in Mobile Screen
+        </h1>
+        <div class="c-code l-mt-1-5 u-ff-sans l-mx-1-5">
+          <p>
+            <b> .c-hero {</b>
+            <br />
+            background-image: url(images/hero.jpg); width: 100%;
+            background-size: cover; height: 300px; margin-top:50px; display:
+            flex; /* line-height: 3px; */ flex-direction: column; /* Stack items
+            vertically */ justify-content: center; /* Center content
+            horizontally */ align-items: center; /* Center content vertically */
+            text-align: center; /* Center text within the container */ }
+          </p>
+
+          <p>
+            <b> .c-hero__heading {</b><br />
+            margin-bottom: 20px; line-height: 35px; display: block; /* Ensure
+            heading takes full width */ }
+          </p>
+          <p>
+            <b> .c-hero__button {</b><br />
+            display: block; /* Ensure button takes full width */
+            background-color: var(--clr-accent-primary); /* Example button color
+            */ color: var(--clr-text-primary); /* Example button text color */
+            text-decoration: none; border-radius: 4px; /* Example border radius
+            */ padding: 10px 20px; /* Adjust padding for button */ }
+          </p>
+          <p>
+            <b> .c-hero__button:hover{</b><br />
+            background-color: var(--Clr-bg-secondary); }
+          </p>
+        </div>
+      </section>
+      <!-- Desktop -->
+      <section>
+        <h1 class="u-ff-serif u-fs-800 u-fw-700 l-mt-2-5">
+          CSS Code in Desktop
+        </h1>
+        <div class="c-code l-mt-1-5 u-ff-sans l-mx-1-5 l-pb-2">
+          <p>
+            <b> .c-hero {</b>
+            <br />
+            background-image: url(images/hero.jpg); width: 100%; margin-top:
+            60px; background-size: cover; height: 800px; opacity: 0.9; }
+          </p>
+          <p>
+            <b> .c-hero__button {</b><br />
+            width: 10%; padding: 10px 20px; border-radius: 5px; }
+          </p>
+        </div>
+      </section>
+    </main>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="design-system.css" />
     <script src="design-system.js"></script>
