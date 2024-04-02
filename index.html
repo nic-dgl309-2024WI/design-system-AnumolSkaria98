@@ -8,26 +8,26 @@
   </head>
   <body>
     <div class="c-topnav u-ff-sans" id="myTopnav">
-      <a href="coming-soon.html" class="c-topnav__link is-active secondary-text"
-        >Coming Soon</a
-      >
-      <span class="c-toggle-nav" onclick="toggleNav()">
-        <span class="c-hamburger">&#9776;</span>
-        <span class="c-cancel" style="display: none">&#10006;</span>
-      </span>
-      <div class="c-topnav__links u-ff-sans">
-        <!-- <a href="index.html" class="c-topnav__link">Home</a> -->
-        <a href="#" class="c-topnav__link">Products</a>
-        <a href="#" class="c-topnav__link">Services</a>
-        <a href="#" class="c-topnav__link">Resources</a>
-        <a href="#" class="c-topnav__link">About us</a>
-        <a href="#" class="c-topnav__link">Contact</a>
+        <a href="coming-soon.html" class="c-topnav__link is-active secondary-text">Outback Nursery</a>
+        <span class="c-toggle-nav" onclick="toggleNav()">
+          <span class="c-hamburger">&#9776;</span>
+          <span class="c-cancel" style="display: none">&#10006;</span>
+        </span>
+        <div class="c-topnav__links-container">
+          <div class="c-topnav__links u-ff-sans u-fw-400">
+            <a href="#" class="c-topnav__link">Products</a>
+            <a href="#" class="c-topnav__link">Services</a>
+            <a href="#" class="c-topnav__link">Resources</a>
+            <a href="#" class="c-topnav__link">About us</a>
+            <a href="#" class="c-topnav__link">Contact</a>
+          </div>
+        </div>
       </div>
-    </div>
+      
     <main>
       <section class="c-hero">
         <h1
-          class="c-hero__heading l-ml-2-5 l-pl-2-5 heading-text u-fw-800 u-fs-800"
+          class="c-hero__heading l-ml-2-5 l-pl-2-5 heading-text u-fw-800 u-fs-800 u-ff-serif"
         >
           Welcome to Outback Nursery
         </h1>
@@ -46,10 +46,10 @@
       <!-- Best selling products -->
 
       <section class="l-mt-2 l-pt-2-5" id="best-sellers">
-        <h1 class="best-sellers l-pb-2 u-fs-800 u-text-primary">
+        <h1 class="best-sellers l-pb-2 u-fs-800 u-text-primary u-ff-serif">
           Our Best Sellers
         </h1>
-        <div class="c-card-container  l-pb-1-25">
+        <div class="c-card-container  l-pb-1-25 l-mx-2-5">
           <div class="c-card-container__card">
             <img src="images/card1.jpeg" alt="Image 1" />
           </div>
@@ -61,21 +61,21 @@
           </div>
         </div>
         <div class="l-pb-2">
-        <a href="#" class="c-card-container__btn l-mt-2"
+            <a href="#" class="c-card-container__btn l-mx-2-5 u-ff-sans"
         >Top Picks awaits. Explore Now!</a
         >
     </div>
       </section>
 <!-- Services -->
 <section class="c-service">
-    <h2 class="u-ff-sans u-fs-800">Our Services</h2>
+    <h2 class="u-ff-sans u-fs-800 u-fw-700 u-ff-serif">Our Services</h2>
     <div class="c-service__service-content l-mt-2">
         <div class="icon">
             <img src="images/gift.png" alt="Service Icon">
         </div>
         <div class="c-service__form">           
-            <h2 class="u-fw-700">Get your gift certificate</h2>
-            <form action="#" method="POST" class="service-form">
+            <h2 class="u-fw-400 u-fs-serif">Get your gift certificate</h2>
+            <form action="#" method="POST" class="service-form u-ff-sans">
                 <div class="c-service__form--form-group">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
@@ -88,14 +88,16 @@
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="4" required></textarea>
                 </div>
-                <button class="c-service__form--btn" type="submit">Submit</button>
+                <button class="c-service__form--btn u-ff-sans" type="submit">Submit</button>
             </form>
         </div>
     </div>
         <div class="c-service__service-content l-mt-2-5">
-            
-            <div class="steps">
-                <h2 class="u-fw-700 u-ff-serif">Delivery Steps</h2>
+            <div class="icon">
+                <img src="images/fast-delivery.png" alt="Delivery Icon">
+            </div>
+            <div class="c-steps l-ml-2-5 l-pl-2-5">
+                <h2 class="u-fw-400 u-ff-serif">Delivery Steps</h2>
                 <ol class="u-ff-sans">
                     <li>Place your order online or by phone.</li>
                     <li>Our team will prepare your order for delivery.</li>
@@ -103,18 +105,17 @@
                     <li>Receive your order at your specified location.</li>
                 </ol>
             </div>
-            <div class="icon">
-                <img src="images/fast-delivery.png" alt="Delivery Icon">
-            </div>
+            
         </div>
         <a href="#" class="c-service__btn .l-px-2-5 l-mx-2-5">Explore More</a>
     </section>
 
       <!-- FAQ -->
-      <div class="c-faq-container">
-        <section class="c-faq-container__heading">
+     
+        <section  class="c-faq-container">
+            <div class="c-faq-container__heading">
           <h2 class="u-fs-800 l-mt-2 l-pb-2">Frequently Asked Questions</h2>
-
+        </div>
           <div class="question u-ff-sans">
             <h3>What kinds of plants do you offer?</h3>
             <p>
@@ -161,8 +162,7 @@
             </p>
           </div>
         </section>
-        </div>
-
+       
 
         <!-- About us -->
         <div>
@@ -185,7 +185,9 @@
       </div>
       <!-- Testimonial section -->
       <div class="testimonials">
-        <div class="testimonial-slide">
+        <h2 class="testimonial-heading u-fs-800 u-fw-700 u-ff-serif l-mt-1-25">What Our Customers Say</h2>
+
+        <div class="testimonial-slide l-mt-2">
             <img src="images/testimonial 1.png" alt="Client">
             <p>"We have had dealings with Outback Nursery for over 16 years and because of the helpful and knowledgable staff that always greet us, that is where we went when we wanted to transform the vegetable garden into an array of shrubs and flowers when we moved into our present home 2 years ago. The quality of plants and selection is always great and the ease of access off of the Whitemud make it very convenient. The layout and cleanliness of the Nursery has always impressed us as well."</p>
             <p>- John Doe</p>
@@ -210,29 +212,29 @@
     
     <div class="pagination">
     </div>
-      
+
     </main>
-    <footer class="c-footer">
-        <div class="c-footer-content">
+    <footer class="c-footer l-mt-2 l-pb-2-5">
+        <div class="c-footer-content l-mt-1-5 l-pb-2-5">
           <div class="c-footer-content__footer-section">
-            <h3>Address</h3>
+            <h3 class="l-mt-1-5">Address</h3>
             <p>6016 Headquarters Rd<br> Courtenay<br>BC V9J 1M7</p>
           </div>
           <div class="c-footer-content__footer-section">
-            <h3>Operating Hours</h3>
+            <h3 class="l-mt-1-5">Operating Hours</h3>
             <p>Monday - Friday: 9am - 5pm<br>We are open every day including statutory holidays</p>
           </div>
           <div class="c-footer-content__footer-section">
             <!-- <h3>Map</h3>
             <p>Insert map here</p> -->
-            <div class="map-container">
+            <div class="map-container l-mt-1-5">
                 <!-- <iframe src="https://maps.app.goo.gl/EaicgeK9XwTvQBxFA" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
                 <img src="images/map.jpeg" alt="">
               </div>
           </div>
           <div class="c-footer-content__footer-section">
             <!-- <h3>Contact Us</h3> -->
-            <button class="footer-section__btn">Contact Us</button>
+            <button class="footer-section__btn l-mt-1-5">Contact Us</button>
           </div>
         </div>
       </footer>
