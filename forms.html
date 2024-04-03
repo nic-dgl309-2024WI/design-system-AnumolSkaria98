@@ -8,7 +8,7 @@
   <body>
     <!--Topnav-->
     <div class="c-topnav u-ff-sans" id="myTopnav">
-      <a href="index.html" class="c-topnav__link ">Design System</a>
+      <a href="index.html" class="c-topnav__link">Design System</a>
 
       <span class="c-toggle-nav" onclick="toggleNav()">
         <span class="c-hamburger">&#9776;</span>
@@ -57,12 +57,66 @@
         <p>Components</p>
 
         <li><a href="cards.html" class="c-sidenav__link">16 Cards</a></li>
-        <li><a href="forms.html" class="c-sidenav__link is-form-active">17 Forms</a></li>
+        <li>
+          <a href="forms.html" class="c-sidenav__link is-form-active"
+            >17 Forms</a
+          >
+        </li>
         <li><a href="#" class="c-sidenav__link">18 Accordion</a></li>
         <li><a href="#" class="c-sidenav__link">19 lists</a></li>
       </ul>
     </div>
-    
+    <main>
+      <h1 class="u-ff-serif u-fs-800 u-fw-700 l-mt-2-5 l-pt-2-5">
+        Forms Example
+      </h1>
+      <div class="c-service__form l-mt-2-5">
+        <h2 class="u-fw-400 u-fs-serif">Get your gift certificate</h2>
+        <form action="#" method="POST" class="service-form u-ff-sans">
+          <div class="c-service__form--form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="c-service__form--form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="c-service__form--form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button class="c-service__form--btn u-ff-sans" type="submit">
+            Submit
+          </button>
+        </form>
+      </div>
+      <section>
+        <h1 class="u-ff-serif u-fs-800 u-fw-700 l-mt-2-5">HTML Code</h1>
+        <div class="c-code l-mt-1-5 u-ff-sans">
+          <pre class="c-code l-mt-1-5 u-ff-sans">
+                        &lt;div class="c-service__form"&gt;           
+                            &lt;h2 class="u-fw-400 u-fs-serif"&gt;Get your gift certificate&lt;/h2&gt;
+                            &lt;form action="#" method="POST" class="service-form u-ff-sans"&gt;
+                                &lt;div class="c-service__form--form-group"&gt;
+                                    &lt;label for="name"&gt;Name:&lt;/label&gt;
+                                    &lt;input type="text" id="name" name="name" required&gt;
+                                &lt;/div&gt;
+                                &lt;div class="c-service__form--form-group"&gt;
+                                    &lt;label for="email"&gt;Email:&lt;/label&gt;
+                                    &lt;input type="email" id="email" name="email" required&gt;
+                                &lt;/div&gt;
+                                &lt;div class="c-service__form--form-group"&gt;
+                                    &lt;label for="message"&gt;Message:&lt;/label&gt;
+                                    &lt;textarea id="message" name="message" rows="4" required&gt;&lt;/textarea&gt;
+                                &lt;/div&gt;
+                                &lt;button class="c-service__form--btn u-ff-sans" type="submit"&gt;Submit&lt;/button&gt;
+                            &lt;/form&gt;
+                        &lt;/div&gt;
+                        </pre
+          >
+        </div>
+      </section>
+    </main>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="design-system.css" />
     <script src="design-system.js"></script>
