@@ -285,6 +285,9 @@ main {
 .is-active-accordion{
   color: var(--clr-accent-primary);
 }
+.is-active-list{
+  color: var(--clr-accent-primary);
+}
 
 /* Reference - ChatGPT */
 
