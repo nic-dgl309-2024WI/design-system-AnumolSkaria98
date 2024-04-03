@@ -300,6 +300,10 @@ main {
   text-decoration: none;
   color: var(--clr-accent-primary) /* Blue color */
 }
+/* navbar.html */
+.is-active-nav{
+  color: var(--clr-accent-primary);
+}
 
 /* .breadcrumb-separator {
   margin: 0 5px;
