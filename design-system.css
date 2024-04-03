@@ -277,6 +277,10 @@ main {
 {
   color: var(--clr-accent-primary);
 }
+/* Form.html */
+.is-form-active{
+  color: var(--clr-accent-primary);
+}
 
 /* Reference - ChatGPT */
 
