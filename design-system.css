@@ -262,7 +262,7 @@ main {
   color: var(--clr-accent-primary);
 }
 .c-code{
-  max-width: 500px;
+  max-width: 200px;
   display: flex;
   gap: 20px;
   flex-direction: column;
