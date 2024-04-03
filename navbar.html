@@ -82,6 +82,59 @@
               </div>
             </div>
           </div>
+          <div class="l-mt-2-5 l-pt-2-5">
+          <section class="l-mt-2-5 l-pt-2-5 ">
+            <h1 class="u-ff-serif u-fs-800 u-fw-700  l-pt-2-5">
+              HTML Code
+            </h1>
+            <div class="c-code l-mt-1-5 u-ff-sans l-mx-1-5">
+                <pre class="c-code l-mt-1-5 u-ff-sans">
+                    &lt;div class="c-topnav u-ff-sans" id="myTopnav"&gt;
+                        &lt;a href="coming-soon.html" class="c-topnav__link is-active secondary-text"&gt;Outback Nursery&lt;/a&gt;
+                        &lt;span class="c-toggle-nav" onclick="toggleNav()"&gt;
+                            &lt;span class="c-hamburger"&gt;&#9776;&lt;/span&gt;
+                            &lt;span class="c-cancel" style="display: none"&gt;&#10006;&lt;/span&gt;
+                        &lt;/span&gt;
+                        &lt;div class="c-topnav__links-container"&gt;
+                            &lt;div class="c-topnav__links u-ff-sans u-fw-400"&gt;
+                                &lt;a href="coming-soon.html" class="c-topnav__link"&gt;Products&lt;/a&gt;
+                                &lt;a href="coming-soon.html" class="c-topnav__link"&gt;Services&lt;/a&gt;
+                                &lt;a href="coming-soon.html" class="c-topnav__link"&gt;Resources&lt;/a&gt;
+                                &lt;a href="coming-soon.html" class="c-topnav__link"&gt;About us&lt;/a&gt;
+                                &lt;a href="coming-soon.html" class="c-topnav__link"&gt;Contact&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    </pre>
+                    
+            </div>
+          </section>
+        </div>
+        <section>
+            <h1 class="u-ff-serif u-fs-800 u-fw-700 l-mt-1-25">
+              JavaScript code
+            </h1>
+            <div class="c-code l-mt-1-25 u-ff-sans l-mx-1-5 ">
+              <p>
+                function toggleNav() {<br>
+                    var sidenav = document.getElementById("mySidenav");<br>
+                    var toggleButton = document.querySelector(".c-toggle-nav");<br>
+                    var hamburger = document.querySelector(".c-hamburger");<br>
+                    var cancel = document.querySelector(".c-cancel");<br>
+                  
+                    if (sidenav.style.display === "block") {<br>
+                      sidenav.style.display = "none";<br>
+                      hamburger.style.display = "block"; // Show hamburger icon<br>
+                      cancel.style.display = "none"; // Hide cancel icon<br>
+                    } else {<br>
+                      sidenav.style.display = "block";<br>
+                      hamburger.style.display = "none"; // Hide hamburger icon<br>
+                      cancel.style.display = "block"; // Show cancel icon<br>
+                    }<br>
+                  }<br>
+              </p>
+            </div>
+          </section>
     </main>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="design-system.css" />
