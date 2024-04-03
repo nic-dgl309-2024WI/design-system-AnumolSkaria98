@@ -292,6 +292,10 @@ main {
 .is-active-footer{
   color: var(--clr-accent-primary);
 }
+/* Breadcrumbs */
+.is-active-breadcrumbs{
+  color: var(--clr-accent-primary);
+}
 
 /* Reference - ChatGPT */
 
