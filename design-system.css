@@ -304,6 +304,10 @@ main {
 .is-active-nav{
   color: var(--clr-accent-primary);
 }
+#myTopnav1{
+  width: 70%;
+  margin-top: 150px;
+}
 
 /* .breadcrumb-separator {
   margin: 0 5px;
