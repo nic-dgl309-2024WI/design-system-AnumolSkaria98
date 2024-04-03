@@ -829,7 +829,7 @@ p {
 }
 
 .pagination button.active {
-  background-color: #717171;
+  background-color: var(--clr-accent-primary);
 }
 
 /* Footer */
