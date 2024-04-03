@@ -272,6 +272,11 @@ main {
 .is-active-carousel{
   color: var(--clr-accent-primary);
 }
+/* Cards Page */
+.is-active-cards
+{
+  color: var(--clr-accent-primary);
+}
 
 /* Reference - ChatGPT */
 
