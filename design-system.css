@@ -296,6 +296,14 @@ main {
 .is-active-breadcrumbs{
   color: var(--clr-accent-primary);
 }
+.breadcrumb {
+  text-decoration: none;
+  color: var(--clr-accent-primary) /* Blue color */
+}
+
+/* .breadcrumb-separator {
+  margin: 0 5px;
+} */
 
 /* Reference - ChatGPT */
 

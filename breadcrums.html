@@ -62,7 +62,43 @@
         <li><a href="lists.html" class="c-sidenav__link">19 lists</a></li>
       </ul>
     </div>
-    
+    <main>
+        <div class="breadcrumbs l-mt-2-5 l-pt-2-5 l-pb-2 u-ff-sans">
+            <a href="#" class="breadcrumb">Home</a>
+            <span class="breadcrumb-separator l-ml-1-25">></span>
+            <a href="#" class="breadcrumb">Services</a>
+            <span class="breadcrumb-separator l-ml-1-25">></span>
+            <a href="#" class="breadcrumb">Gift Certificate</a>
+
+          </div>
+        <section class="c-service">
+            <h2 class="u-ff-sans u-fs-800 u-fw-700 u-ff-serif ">Our Services</h2>
+            <div class="c-service__service-content l-mt-2">
+                <div class="icon">
+                    <img src="images/gift.png" alt="Service Icon">
+                </div>
+                <div class="c-service__form">           
+                    <h2 class="u-fw-400 u-fs-serif">Get your gift certificate</h2>
+                    <form action="#" method="POST" class="service-form u-ff-sans">
+                        <div class="c-service__form--form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="c-service__form--form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="c-service__form--form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button class="c-service__form--btn u-ff-sans" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+                <a href="#" class="c-service__btn .l-px-2-5 l-mx-2-5">Explore More</a>
+            </section>
+    </main>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="design-system.css" />
     <script src="design-system.js"></script>
