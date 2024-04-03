@@ -120,6 +120,88 @@
           </p>
         </div>
       </section>
+
+      <section>
+        <h1 class="u-ff-serif u-fs-800 u-fw-700 l-mt-2-5">HTML Code</h1>
+        <div class="c-code l-mt-1-5 u-ff-sans l-mx-1-5">
+          <pre class="c-code l-mt-1-5 u-ff-sans l-mx-1-25">
+                &lt;section class="c-faq-container"&gt;
+                    &lt;div class="c-faq-container__heading"&gt;
+                        &lt;h2 class="u-fs-800 l-mt-2 l-pb-2"&gt;Frequently Asked Questions&lt;/h2&gt;
+                    &lt;/div&gt;
+                    
+                    &lt;div class="question u-ff-sans"&gt;
+                        &lt;h3&gt;What kinds of plants do you offer?&lt;/h3&gt;
+                        &lt;p&gt;
+                            We offer a wide variety of plants including flowers, shrubs,
+                            trees, succulents, and herbs. Whether you're looking for
+                            ornamental plants to beautify your garden or herbs for your
+                            kitchen, we have something for everyone.
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                
+                    &lt;div class="question u-ff-sans"&gt;
+                        &lt;h3&gt;What is your return policy?&lt;/h3&gt;
+                        &lt;p&gt;
+                            We have a no refund or return policy on live plant material. Our
+                            plants are healthy when leaving the Nursery.
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                
+                    &lt;div class="question u-ff-sans"&gt;
+                        &lt;h3&gt;
+                            Can you advise me on landscaping and plant arrangement for my
+                            garden?
+                        &lt;/h3&gt;
+                        &lt;p&gt;
+                            Absolutely! Our team of experienced horticulturists can provide
+                            personalized landscaping advice tailored to your garden's specific
+                            conditions and your preferences. Whether you're aiming for a
+                            vibrant flower bed or a low-maintenance garden, we're here to help
+                            you achieve your vision.
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                
+                    &lt;div class="question u-ff-sans"&gt;
+                        &lt;h3&gt;
+                            How do I know if a plant is suitable for the climate in my area?
+                        &lt;/h3&gt;
+                        &lt;p&gt;
+                            Our nursery specializes in plants that are well-suited to the
+                            local climate. However, if you're unsure about a specific plant's
+                            suitability for your area, feel free to ask our staff for
+                            guidance. We can recommend plants that are known to thrive in your
+                            particular climate zone and provide tips for ensuring their
+                            success in your garden.
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/section&gt;
+                </pre
+          >
+        </div>
+      </section>
+      <section>
+        <h1 class="u-ff-serif u-fs-800 u-fw-700 l-mt-1-5">JavaScript Code</h1>
+        <div class="c-code l-mt-1-5 u-ff-sans l-mx-1-5">
+          <p>
+            document.addEventListener('DOMContentLoaded', function()<br />
+            {<br />
+            const questions = document.querySelectorAll('.question');<br />
+
+            questions.forEach(question => {<br />
+            question.addEventListener('click', function() {<br />
+            questions.forEach(q => {<br />
+            if (q !== question) {<br />
+            q.classList.remove('active');<br />
+            }<br />
+            });<br />
+            question.classList.toggle('active');<br />
+            });<br />
+            });<br />
+            });
+          </p>
+        </div>
+      </section>
     </main>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="design-system.css" />
