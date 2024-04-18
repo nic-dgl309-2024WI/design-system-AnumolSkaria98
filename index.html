@@ -8,22 +8,24 @@
   </head>
   <body>
     <div class="c-topnav u-ff-sans" id="myTopnav">
-        <a href="#" class="c-topnav__link is-active secondary-text">Outback Nursery</a>
-        <span class="c-toggle-nav" onclick="toggleNav()">
-          <span class="c-hamburger">&#9776;</span>
-          <span class="c-cancel" style="display: none">&#10006;</span>
-        </span>
-        <div class="c-topnav__links-container">
-          <div class="c-topnav__links u-ff-sans u-fw-400">
-            <a href="coming-soon.html" class="c-topnav__link">Products</a>
-            <a href="coming-soon.html" class="c-topnav__link">Services</a>
-            <a href="coming-soon.html" class="c-topnav__link">Resources</a>
-            <a href="coming-soon.html" class="c-topnav__link">About us</a>
-            <a href="coming-soon.html" class="c-topnav__link">Contact</a>
-          </div>
+      <a href="#" class="c-topnav__link is-active secondary-text"
+        >Outback Nursery</a
+      >
+      <span class="c-toggle-nav" onclick="toggleNav()">
+        <span class="c-hamburger">&#9776;</span>
+        <span class="c-cancel" style="display: none">&#10006;</span>
+      </span>
+      <div class="c-topnav__links-container">
+        <div class="c-topnav__links u-ff-sans u-fw-400">
+          <a href="coming-soon.html" class="c-topnav__link">Products</a>
+          <a href="coming-soon.html" class="c-topnav__link">Services</a>
+          <a href="coming-soon.html" class="c-topnav__link">Resources</a>
+          <a href="coming-soon.html" class="c-topnav__link">About us</a>
+          <a href="coming-soon.html" class="c-topnav__link">Contact</a>
         </div>
       </div>
-      
+    </div>
+
     <main>
       <section class="c-hero">
         <h1
@@ -31,7 +33,9 @@
         >
           Welcome to Outback Nursery
         </h1>
-        <a href="coming-soon.html" class="c-hero__button .l-px-2 u-fw-800"> Get Started</a>
+        <a href="coming-soon.html" class="c-hero__button .l-px-2 u-fw-800">
+          Get Started</a
+        >
       </section>
       <section class="c-announcement">
         <p class="c-announcement__p">
@@ -46,219 +50,310 @@
       <!-- Best selling products -->
       <section class="l-mt-2 l-pt-2-5" id="best-sellers">
         <h1 class="best-sellers l-pb-2 u-fs-800 u-text-primary u-ff-serif">
-            Our Best Sellers
+          Our Best Sellers
         </h1>
         <div class="c-card-container l-pb-1-25 l-mx-2-5">
-            <div class="c-card-container__card">
-                <img src="images/card1.jpeg" alt="Image 1" />
-                <p class="c-card-container__plant-name u-ff-sans l-pb-1-25 u-fw-400">  Leylandii</p>
-            </div>
-            <div class="c-card-container__card">
-                <img src="images/card2.jpg" alt="Image 2" />
-                <p class="c-card-container__plant-name u-ff-sans l-pb-1-25">Little Diamond</p>
-            </div>
-            <div class="c-card-container__card">
-                <img src="images/card3.jpg" alt="Image 3" />
-                <p class="c-card-container__plant-name u-ff-sans l-pb-1-25">Mountain Hemlock</p>
-            </div>
+          <div class="c-card-container__card">
+            <img src="images/card1.jpeg" alt="Image 1" />
+            <p
+              class="c-card-container__plant-name u-ff-sans l-pb-1-25 u-fw-400"
+            >
+              Leylandii
+            </p>
+          </div>
+          <div class="c-card-container__card">
+            <img src="images/card2.jpg" alt="Image 2" />
+            <p class="c-card-container__plant-name u-ff-sans l-pb-1-25">
+              Little Diamond
+            </p>
+          </div>
+          <div class="c-card-container__card">
+            <img src="images/card3.jpg" alt="Image 3" />
+            <p class="c-card-container__plant-name u-ff-sans l-pb-1-25">
+              Mountain Hemlock
+            </p>
+          </div>
         </div>
         <div class="l-pb-2">
-            <a href="coming-soon.html" class="c-card-container__btn l-mx-2-5 u-ff-sans">
-                Top Picks await. Explore Now!
-            </a>
+          <a
+            href="coming-soon.html"
+            class="c-card-container__btn l-mx-2-5 u-ff-sans"
+          >
+            Top Picks await. Explore Now!
+          </a>
         </div>
-    </section>
-    
-<!-- Services -->
-<section class="c-service l-pb-2-5 l-mb-2-5">
-    <h2 class="u-ff-sans u-fs-800 u-fw-700 u-ff-serif l-mt-1-5 l-pb-2">Our Services</h2>
-    <div class="c-service__service-content l-mt-2">
-        <div class="icon">
-            <img src="images/gift.png" alt="Service Icon">
-        </div>
-        <div class="c-service__form">           
+      </section>
+
+      <!-- Services -->
+      <section class="c-service l-pb-2-5 l-mb-2-5">
+        <h2 class="u-fs-800 u-fw-700 u-ff-serif l-mt-1-5 l-pb-2">
+          Our Services
+        </h2>
+        <div class="c-service__service-content l-mt-2">
+          <div class="icon">
+            <img src="images/gift.png" alt="Service Icon" />
+          </div>
+          <div class="c-service__form">
             <h2 class="u-fw-400 u-ff-serif">Get your gift certificate</h2>
             <form action="#" method="POST" class="service-form u-ff-sans">
-                <div class="c-service__form--form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="c-service__form--form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="c-service__form--form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                </div>
-                <button class="c-service__form--btn u-ff-sans" type="submit">Submit</button>
+              <div class="c-service__form--form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="c-service__form--form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="c-service__form--form-group">
+                <label for="message">Message:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <button class="c-service__form--btn u-ff-sans" type="submit">
+                Submit
+              </button>
             </form>
-        </div>
-    </div>
-        <div class="c-service__service-content l-mt-2-5 l-pt-2-5">
-            <div class="icon">
-                <img src="images/fast-delivery.png" alt="Delivery Icon">
-            </div>
-            <div class="c-steps  l-pl-2-5 ">
-                <h2 class="u-fw-400 u-ff-serif l-mt-2-5">Delivery Steps</h2>
-                <ol class="u-ff-sans">
-                    <li>Place your order online or by phone.</li>
-                    <li>Our team will prepare your order for delivery.</li>
-                    <li>We'll notify you once your order is out for delivery.</li>
-                    <li>Receive your order at your specified location.</li>
-                </ol>
-            </div>
-            
           </div>
-          
-          
-          <div class="l-pb-2">
-          <a href="coming-soon.html" class="c-service__btn ">Explore More</a>
-
         </div>
-    </section>
+        <div class="c-service__service-content l-mt-2-5 l-pt-2-5">
+          <div class="icon">
+            <img src="images/fast-delivery.png" alt="Delivery Icon" />
+          </div>
+          <div class="c-steps l-pl-2-5">
+            <h2 class="u-fw-400 u-ff-serif l-mt-2-5">Delivery Steps</h2>
+            <ol class="u-ff-sans">
+              <li>Place your order online or by phone.</li>
+              <li>Our team will prepare your order for delivery.</li>
+              <li>We'll notify you once your order is out for delivery.</li>
+              <li>Receive your order at your specified location.</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="l-pb-2">
+          <a href="coming-soon.html" class="c-service__btn">Explore More</a>
+        </div>
+      </section>
 
       <!-- FAQ -->
-     
-        <section  class="c-faq-container">
-            <div class="c-faq-container__heading">
+
+      <section class="c-faq-container">
+        <div class="c-faq-container__heading">
           <h2 class="u-fs-800 u-ff-serif">Frequently Asked Questions</h2>
         </div>
-          <div class="question u-ff-sans">
-            <h3>What kinds of plants do you offer?</h3>
-            <p>
-              We offer a wide variety of plants including flowers, shrubs,
-              trees, succulents, and herbs. Whether you're looking for
-              ornamental plants to beautify your garden or herbs for your
-              kitchen, we have something for everyone.
-            </p>
-          </div>
+        <div class="question u-ff-sans">
+          <h3>What kinds of plants do you offer?</h3>
+          <p>
+            We offer a wide variety of plants including flowers, shrubs, trees,
+            succulents, and herbs. Whether you're looking for ornamental plants
+            to beautify your garden or herbs for your kitchen, we have something
+            for everyone.
+          </p>
+        </div>
 
-          <div class="question u-ff-sans">
-            <h3>What is your return policy?</h3>
-            <p >
-              We have a no refund or return policy on live plant material. Our
-              plants are healthy when leaving the Nursery.
-            </p>
-          </div>
+        <div class="question u-ff-sans">
+          <h3>What is your return policy?</h3>
+          <p>
+            We have a no refund or return policy on live plant material. Our
+            plants are healthy when leaving the Nursery.
+          </p>
+        </div>
 
-          <div class="question u-ff-sans">
-            <h3>
-              Can you advise me on landscaping and plant arrangement for my
-              garden?
-            </h3>
-            <p>
-              Absolutely! Our team of experienced horticulturists can provide
-              personalized landscaping advice tailored to your garden's specific
-              conditions and your preferences. Whether you're aiming for a
-              vibrant flower bed or a low-maintenance garden, we're here to help
-              you achieve your vision.
-            </p>
-          </div>
+        <div class="question u-ff-sans">
+          <h3>
+            Can you advise me on landscaping and plant arrangement for my
+            garden?
+          </h3>
+          <p>
+            Absolutely! Our team of experienced horticulturists can provide
+            personalized landscaping advice tailored to your garden's specific
+            conditions and your preferences. Whether you're aiming for a vibrant
+            flower bed or a low-maintenance garden, we're here to help you
+            achieve your vision.
+          </p>
+        </div>
 
-          <div class="question u-ff-sans">
-            <h3>
-              How do I know if a plant is suitable for the climate in my area?
-            </h3>
-            <p>
-              Our nursery specializes in plants that are well-suited to the
-              local climate. However, if you're unsure about a specific plant's
-              suitability for your area, feel free to ask our staff for
-              guidance. We can recommend plants that are known to thrive in your
-              particular climate zone and provide tips for ensuring their
-              success in your garden.
-            </p>
-          </div>
-        </section>
-       
+        <div class="question u-ff-sans">
+          <h3>
+            How do I know if a plant is suitable for the climate in my area?
+          </h3>
+          <p>
+            Our nursery specializes in plants that are well-suited to the local
+            climate. However, if you're unsure about a specific plant's
+            suitability for your area, feel free to ask our staff for guidance.
+            We can recommend plants that are known to thrive in your particular
+            climate zone and provide tips for ensuring their success in your
+            garden.
+          </p>
+        </div>
+      </section>
 
-        <!-- About us -->
-        <div>
+      <!-- About us -->
+      <div>
         <section class="about l-mt-1-5">
-            <div class="container">
-                <div class="about-content">
-                    <div class="about-image">
-                        <img src="images/about.jpg" alt="Plant Nursery">
-                    </div>
-                    <div class="about-description">
-                        <h2 class="u-fs-800 u-ff-sans l-mt-2">About Us</h2>
-                        <p>
-                        Outback Nursery is one of the largest garden centres on Vancouver Island.   Our nursery is situated on a  6 acre property and offers 5 overflowing greenhouses (30x170ft); almost 23,000 square feet.
-                        Outback Nursery began in 1998-1999 when our parents retired to the island from Aldergrove. They asked if we'd be interested in joining them and then purchased this  heavily treed property. We began clearing some trees and settled into country life trying our hand at raising some turkeys and pigs as well as growing some hedging and conifers. We joined the Farmer's Market, then as our inventory expanded we began running a spec truck down island stopping here and there to show our quality product to potential customers.</p>
-                        <a href="coming-soon.html" class="about-content__btn">Discover More</a>
-                    </div>
-                </div>
+          <div class="container">
+            <div class="about-content">
+              <div class="about-image">
+                <img src="images/about.jpg" alt="Plant Nursery" />
+              </div>
+              <div class="about-description">
+                <h2 class="u-fs-800 u-ff-sans l-mt-2">About Us</h2>
+                <p>
+                  Outback Nursery is one of the largest garden centres on
+                  Vancouver Island. Our nursery is situated on a 6 acre property
+                  and offers 5 overflowing greenhouses (30x170ft); almost 23,000
+                  square feet. Outback Nursery began in 1998-1999 when our
+                  parents retired to the island from Aldergrove. They asked if
+                  we'd be interested in joining them and then purchased this
+                  heavily treed property. We began clearing some trees and
+                  settled into country life trying our hand at raising some
+                  turkeys and pigs as well as growing some hedging and conifers.
+                  We joined the Farmer's Market, then as our inventory expanded
+                  we began running a spec truck down island stopping here and
+                  there to show our quality product to potential customers.
+                </p>
+                <a href="coming-soon.html" class="about-content__btn"
+                  >Discover More</a
+                >
+              </div>
             </div>
+          </div>
         </section>
       </div>
       <!-- Testimonial section -->
       <div class="testimonials">
-        <h2 class="testimonial-heading u-fs-800 u-fw-700 u-ff-serif l-mt-1-25">What Our Customers Say</h2>
+        <h2 class="testimonial-heading u-fs-800 u-fw-700 u-ff-serif l-mt-1-25">
+          What Our Customers Say
+        </h2>
 
         <div class="testimonial-slide l-mt-2">
-            <img src="images/testimonial 1.png" alt="Client" class="testimonial-img l-mb-1-25">
-            <p>"We have had dealings with Outback Nursery for over 16 years and because of the helpful and knowledgable staff that always greet us, that is where we went when we wanted to transform the vegetable garden into an array of shrubs and flowers when we moved into our present home 2 years ago. The quality of plants and selection is always great and the ease of access off of the Whitemud make it very convenient. The layout and cleanliness of the Nursery has always impressed us as well."</p>
-            <p>- John Doe</p>
+          <img
+            src="images/testimonial 1.png"
+            alt="Client"
+            class="testimonial-img l-mb-1-25"
+          />
+          <p>
+            "We have had dealings with Outback Nursery for over 16 years and
+            because of the helpful and knowledgable staff that always greet us,
+            that is where we went when we wanted to transform the vegetable
+            garden into an array of shrubs and flowers when we moved into our
+            present home 2 years ago. The quality of plants and selection is
+            always great and the ease of access off of the Whitemud make it very
+            convenient. The layout and cleanliness of the Nursery has always
+            impressed us as well."
+          </p>
+          <p>- John Doe</p>
         </div>
         <div class="testimonial-slide">
-            <img src="images/testimonial 2.png" alt="Client" class="testimonial-img l-mb-1-25">
-            <p>"I just wanted to pass on a 'thank you' for the great customer service we received when purchasing our tree from your nursery. The girl who assisted us was very knowledgeable in helping us with our selection. The thing that really stuck out though was when she offered to hold our child giving my wife and I a moment of privacy to discuss how we wanted to proceed. We had our tree delivered and Installed, It looks great! The gentlemen who installed the tree, took time after to let us know helpful hints in taking careof it (which we also really appreciated). Thanks one last time for the positive experience."</p>
-            <p>- Jane Smith</p>
+          <img
+            src="images/testimonial 2.png"
+            alt="Client"
+            class="testimonial-img l-mb-1-25"
+          />
+          <p>
+            "I just wanted to pass on a 'thank you' for the great customer
+            service we received when purchasing our tree from your nursery. The
+            girl who assisted us was very knowledgeable in helping us with our
+            selection. The thing that really stuck out though was when she
+            offered to hold our child giving my wife and I a moment of privacy
+            to discuss how we wanted to proceed. We had our tree delivered and
+            Installed, It looks great! The gentlemen who installed the tree,
+            took time after to let us know helpful hints in taking careof it
+            (which we also really appreciated). Thanks one last time for the
+            positive experience."
+          </p>
+          <p>- Jane Smith</p>
         </div>
         <div class="testimonial-slide">
-            <img src="images/testimonial 3.png" alt="Client" class="testimonial-img l-mb-1-25">
-            <p>"Outback nursery is not just the place to purchace quality plants, but a source of information, encouragement and inspiration. I have been able to find many new and unusual plant here as well as the old favorites. The staff is knowledgeable, helpful, and wonderfully interested in what I am planning on doing. The display gardens are not only beautiful but are so useful in being able to see the mature plants, so when planning and planting, the future of the garden is all that more clear. Whether or not I end up taking plants home with me, I feel my time has been very well spent."</p>
-            <p>- Michael Brown</p>
+          <img
+            src="images/testimonial 3.png"
+            alt="Client"
+            class="testimonial-img l-mb-1-25"
+          />
+          <p>
+            "Outback nursery is not just the place to purchace quality plants,
+            but a source of information, encouragement and inspiration. I have
+            been able to find many new and unusual plant here as well as the old
+            favorites. The staff is knowledgeable, helpful, and wonderfully
+            interested in what I am planning on doing. The display gardens are
+            not only beautiful but are so useful in being able to see the mature
+            plants, so when planning and planting, the future of the garden is
+            all that more clear. Whether or not I end up taking plants home with
+            me, I feel my time has been very well spent."
+          </p>
+          <p>- Michael Brown</p>
         </div>
         <div class="testimonial-slide">
-            <img src="images/testimonial 4.png" alt="Client" class="testimonial-img l-mb-1-25">
-            <p>"We recently moved from Vancouver to the Ships Point area to 1.5 acres of garden. Our experience with the family run Outback Nursery over the past several years has been exceptional. Their knowledge of plants combined with their very friendly and helpful service has made our experience enjoyable. Equally important is their excellent pricing, the unique and wide range of plants, shrubs, trees. They also have beautiful rich mulches and soils for the garden. We are very lucky to have found Outback Nursery, the family has helped us make our garden a success."</p>
-            <p>- Liane and JP Cardinal</p>
+          <img
+            src="images/testimonial 4.png"
+            alt="Client"
+            class="testimonial-img l-mb-1-25"
+          />
+          <p>
+            "We recently moved from Vancouver to the Ships Point area to 1.5
+            acres of garden. Our experience with the family run Outback Nursery
+            over the past several years has been exceptional. Their knowledge of
+            plants combined with their very friendly and helpful service has
+            made our experience enjoyable. Equally important is their excellent
+            pricing, the unique and wide range of plants, shrubs, trees. They
+            also have beautiful rich mulches and soils for the garden. We are
+            very lucky to have found Outback Nursery, the family has helped us
+            make our garden a success."
+          </p>
+          <p>- Liane and JP Cardinal</p>
         </div>
         <!-- Add more testimonials as needed -->
-    </div>
-    
-    <div class="pagination">
-    </div>
+      </div>
 
+      <div class="pagination"></div>
     </main>
     <footer class="c-footer l-mt-2 l-pb-2-5">
-        <div class="c-footer-content l-mt-1-5 l-pb-2-5">
-          <div class="c-footer-content__footer-section">
-            <h3 class="l-mt-1-5">Address</h3>
-            <p>6016 Headquarters Rd<br> Courtenay<br>BC V9J 1M7</p>
-          </div>
-          <div class="c-footer-content__footer-section">
-            <h3 class="l-mt-1-5">Operating Hours</h3>
-            <p>Monday - Friday: 9am - 5pm<br>We are open every day including statutory holidays</p>
-          </div>
-          <div class="c-footer-content__footer-section">
-            <!-- <h3>Map</h3>
+      <div class="c-footer-content l-mt-1-5 l-pb-2-5">
+        <div class="c-footer-content__footer-section">
+          <h3 class="l-mt-1-5">Address</h3>
+          <p>
+            6016 Headquarters Rd<br />
+            Courtenay<br />BC V9J 1M7
+          </p>
+        </div>
+        <div class="c-footer-content__footer-section">
+          <h3 class="l-mt-1-5">Operating Hours</h3>
+          <p>
+            Monday - Friday: 9am - 5pm<br />We are open every day including
+            statutory holidays
+          </p>
+        </div>
+        <div class="c-footer-content__footer-section">
+          <!-- <h3>Map</h3>
             <p>Insert map here</p> -->
-            <div class="map-container l-mt-1-5">
-                <!-- <iframe src="https://maps.app.goo.gl/EaicgeK9XwTvQBxFA" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
-                <img src="images/map.jpeg" alt="">
-              </div>
-          </div>
-          <div class="c-footer-content__footer-section">
-            <!-- <h3>Contact Us</h3> -->
-            <button class="footer-section__btn l-mt-1-5">Contact Us</button>
-            <div class="c-footer-content__footer-section social-media-section l-mt-1-5">
-              <h3 class="l-mt-1-25">Follow Us</h3>
-              <div class="social-media-links">
-                <a href="https://www.facebook.com" target="_blank">
-                  <img src="images/facebook.png" alt="Facebook" />
-                </a>
-                <a href="https://mail.google.com/" target="_blank">
-                  <img src="images/gmail.png" alt="Gmail" />
-                </a>
-                
-              </div>
-            </div>
-            
+          <div class="map-container l-mt-1-5">
+            <!-- <iframe src="https://maps.app.goo.gl/EaicgeK9XwTvQBxFA" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+            <img src="images/map.jpeg" alt="" />
           </div>
         </div>
-      </footer>
+        <div class="c-footer-content__footer-section">
+          <!-- <h3>Contact Us</h3> -->
+          <button class="footer-section__btn l-mt-1-5">Contact Us</button>
+          <div
+            class="c-footer-content__footer-section social-media-section l-mt-1-5"
+          >
+            <h3 class="l-mt-1-25">Follow Us</h3>
+            <div class="social-media-links">
+              <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="Facebook" />
+              </a>
+              <a href="https://mail.google.com/" target="_blank">
+                <img src="images/gmail.png" alt="Gmail" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>
