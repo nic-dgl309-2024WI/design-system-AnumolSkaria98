@@ -506,7 +506,7 @@ ol {
   padding: 10px 20px; /* Adjust padding for button */
 }
 .c-hero__button:hover {
-  background-color: var(--clr-text-primary);
+  background-color: var(--clr--accent-secondary);
   color: var(--Clr-bg-secondary);
 }
 
