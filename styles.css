@@ -906,6 +906,23 @@ p {
   background-color: var(--Clr-bg-secondary);
   color: var(--clr-text-primary);
 }
+.social-media-section h3 {
+  margin-bottom: 10px;
+  color: var(--clr-bg-secondary);
+}
+
+.social-media-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.social-media-links img {
+  width: 22px; /* Adjust size as needed */
+  height: 22px;
+  cursor: pointer;
+}
+
 
 /* Media query for desktop sizes */
 @media (min-width: 768px) {
