@@ -803,12 +803,14 @@ p {
   /* position: relative; */
   overflow: hidden;
   text-align: left;
-  height: 500px;
+  height: 600px;
+  text-align: center;
   line-height: 2px;
 }
-/* .testimonial-heading{
-  line-height: 5px;
-} */
+.testimonial-heading{
+  line-height: 35px;
+}
+
 
 .testimonial-slide {
   display: none;
@@ -1074,4 +1076,15 @@ p {
     display: block;
     margin-top: 20px;
   }
+  /* Testimonial */
+
+.testimonials {
+  width: 50%;
+  margin: auto;
+  /* position: relative; */
+  overflow: hidden;
+  text-align: center;
+  /* height: 600px; */
+  line-height: 2px;
+}
 }
