@@ -962,6 +962,13 @@ p {
     width: 19%;
   }
   /* FAQ */
+  /* Style for the question containers */
+
+/* Style for the active question */
+.question.active h3 {
+  color:var(--clr-accent-primary) /* You can also change the text color if desired */
+}
+
 
   /* About */
 
