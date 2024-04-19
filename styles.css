@@ -620,15 +620,15 @@ ol {
   color: var(--clr-bg-primary);
   display: inline-block;
   justify-content: center;
-  width: 30%;
+  width: 20%;
   text-align: center;
-  background-color: var(--clr-accent-primary);
+  background-color: var(--clr--accent-secondary);
   border-radius: 5px;
   /* padding: 10px 20px;
   margin: 20px; */
 }
 .c-card-container__btn:hover {
-  background-color: var(--clr--accent-secondary);
+  background-color: var(--clr-accent-primary);
 }
 
 /* Services */
