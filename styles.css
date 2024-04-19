@@ -443,6 +443,7 @@ ol {
 .c-topnav__link {
   color: var(--clr-text-primary);
   text-align: center;
+  align-items: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -569,14 +570,40 @@ ol {
   flex-basis: calc(33.33% - 20px);
   background-color: var(--clr--accent-secondary);
   border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  
   /* Adjust as needed */
   /* margin: 20px; */
+}
+.c-card-container__card:hover {
+  transform: scale(1.03); /* Slight zoom on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
 }
 
 .c-card-container__card img {
   width: 100%;
   height: 350px;
+  object-fit: cover;
   
+}
+.c-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-in-out;
+}
+.c-card-container__card:hover .c-card-overlay {
+  opacity: 1; /* Show overlay on hover */
 }
 /* Plant name styling */
 .c-card-container__plant-name {
