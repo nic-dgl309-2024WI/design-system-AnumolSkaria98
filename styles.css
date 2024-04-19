@@ -827,7 +827,7 @@ p {
 }
 
 .c-about-content__btn:hover {
-  background-color: var(--clr-text-primary);
+  background-color: var(--clr--accent-secondary);
 }
 
 /* Testimonial */
@@ -941,8 +941,8 @@ p {
 }
 
 .footer-section__btn:hover {
-  background-color: var(--Clr-bg-secondary);
-  color: var(--clr-text-primary);
+  background-color: var(--clr--accent-secondary);
+  color: var(--clr-bg-primary);
 }
 .social-media-section h3 {
   margin-bottom: 10px;
