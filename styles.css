@@ -809,9 +809,13 @@ p {
   color: #666;
   line-height: 1.6;
 }
+.about-heading{
+  margin-top: 15px;
+}
 
 .about-content__btn {
   display: inline-block;
+  margin-top: 15px;
   padding: 10px 20px;
   background-color: var(--clr-accent-primary);
   color: #fff;
@@ -1051,7 +1055,10 @@ p {
 
   .about-description {
     flex-basis: 50%;
+    padding-bottom: 30px;
   }
+  
+
 
   /* Footer */
   .c-footer-content {
