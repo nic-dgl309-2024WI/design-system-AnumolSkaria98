@@ -1035,7 +1035,7 @@ p {
 
 /* Style for the active question */
 .c-faq-container__question.active h3 {
-  color:var(--clr-accent-primary) /* You can also change the text color if desired */
+  color:var(--clr--accent-secondary) /* You can also change the text color if desired */
 }
 
 
