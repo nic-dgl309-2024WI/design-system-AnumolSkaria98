@@ -531,7 +531,7 @@ ol {
   animation: highlight 2s ease-in-out infinite alternate;
 }
 
-.c-highlight-text__important {
+.c-highlight-text--important {
   color: var(
     --clr-accent-primary
   ); /* Change this color as per your preference */
