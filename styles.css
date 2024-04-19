@@ -730,73 +730,73 @@ h2 {
   color: #333;
 }
 
-.question {
+.c-faq-container__question {
   margin-bottom: 20px;
 }
 
-.question h3 {
+.c-faq-container__question h3 {
   color: var(--clr-text-primary);
   margin-bottom: 5px;
 }
 
-.question p {
+.c-faq-container__question p {
   color: var(--clr-text-secondary);
 }
 
 /* Toggle Icon */
-.question h3::after {
+.c-faq-container__question h3::after {
   content: "\f078"; /* FontAwesome icon code for plus sign */
   font-family: "Font Awesome 5 Free";
   float: right;
   font-weight: bold;
 }
 
-.question.active h3::after {
+.c-faq-container__question.active h3::after {
   content: "\f077"; /* FontAwesome icon code for minus sign */
 }
 
 /* Hide Answer by Default */
-.question p {
+.c-faq-container__question p {
   display: none;
 }
 
 /* Show Answer When Question is Active */
-.question.active p {
+.c-faq-container__question.active p {
   display: block;
 }
 
 /* About section */
-.container {
+.c-about__container {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 20px; /* Equal space from left and right */
 }
 
-.about {
+.c-about {
   background-color: var(--clr-bg-primary);
   padding: 50px 0;
 }
 
-.about-content {
+.c-about-content {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.about-image {
+.c-about-image {
   order: -1;
   flex: 1;
   margin-right: 20px;
 }
 
-.about-image img {
+.c-about-image img {
   width: 100%;
   max-width: 100%;
   height: auto;
   border-radius: 7px;
 }
 
-.about-description {
+.c-about-description {
   flex: 1;
 }
 
@@ -809,11 +809,11 @@ p {
   color: #666;
   line-height: 1.6;
 }
-.about-heading{
+.c-about-heading{
   margin-top: 15px;
 }
 
-.about-content__btn {
+.c-about-content__btn {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 20px;
@@ -826,7 +826,7 @@ p {
   transition: background-color 0.3s;
 }
 
-.about-content__btn:hover {
+.c-about-content__btn:hover {
   background-color: var(--clr-text-primary);
 }
 
@@ -1034,26 +1034,26 @@ p {
   /* Style for the question containers */
 
 /* Style for the active question */
-.question.active h3 {
+.c-faq-container__question.active h3 {
   color:var(--clr-accent-primary) /* You can also change the text color if desired */
 }
 
 
   /* About */
 
-  .about-content {
+  .c-about-content {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-align: left;
   }
 
-  .about-image {
+  .c-about-image {
     flex-basis: 40%;
     margin-right: 20px;
   }
 
-  .about-description {
+  .c-about-description {
     flex-basis: 50%;
     padding-bottom: 30px;
   }

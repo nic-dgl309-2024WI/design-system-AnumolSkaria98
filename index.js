@@ -17,7 +17,7 @@ function toggleNav() {
 
 
   document.addEventListener('DOMContentLoaded', function() {
-    const questions = document.querySelectorAll('.question');
+    const questions = document.querySelectorAll('.c-faq-container__question');
     
     questions.forEach(question => {
         question.addEventListener('click', function() {
